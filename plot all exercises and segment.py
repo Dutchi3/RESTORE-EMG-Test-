@@ -118,7 +118,7 @@ for pat in ['P1/','P3/','P2/']:
                               23:'RKE_on',
                               24:'RAD_on',
                               25:'RAP_on'}
-        save_directory = "C:/Users/David Teo/Desktop/right side real/"
+        save_directory = "C:/Users/Student/Downloads/Thaddeus RESTORES EMG Test/outputs/"
         raw_signals_off = {}
         raw_signals_on = {}
         RMS_off_dictionary = {}
@@ -134,7 +134,7 @@ for pat in ['P1/','P3/','P2/']:
             # Get raw signals in dictionary
             for week in weeks:
                 week = str(week)
-                path = "C:/Users/David Teo/Desktop/Extracted Mat Files/"
+                path = "//neuroserver/RESTORES/David_Teo_RESTORES/handover docs/data files/Extracted Mat Files/"
                 path = path + patient + "W" + week + '/'
                 try:
                     files = os.listdir(path)
@@ -242,7 +242,7 @@ for pat in ['P1/','P3/','P2/']:
             for week in weeks:
                 if week <21:
                     week = str(week)
-                    path = "C:/Users/David Teo/Desktop/Extracted Mat Files/"
+                    path = "//neuroserver/RESTORES/David_Teo_RESTORES/handover docs/data files/Extracted Mat Files/"
                     path = path + patient + "W" + week + '/'
                     try:
                         files = os.listdir(path)
@@ -345,7 +345,7 @@ for pat in ['P1/','P3/','P2/']:
                 
                 else:
                     week = str(week)
-                    path = "C:/Users/David Teo/Desktop/Extracted Mat Files/"
+                    path = "//neuroserver/RESTORES/David_Teo_RESTORES/handover docs/data files/Extracted Mat Files/"
                     path = path + patient + "W" + week + '/'
                     print(week)
                     try:
@@ -449,7 +449,7 @@ for pat in ['P1/','P3/','P2/']:
             temp=[]
             for week in weeks:
                 week = str(week)
-                path = "C:/Users/David Teo/Desktop/Extracted Mat Files/"
+                path = "//neuroserver/RESTORES/David_Teo_RESTORES/handover docs/data files/Extracted Mat Files/"
                 path = path + patient + "W" + week + '/'
                 print(week)
                 try:
