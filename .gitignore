@@ -4,3 +4,6 @@ __pycache__/
 *.mat
 *.rtf
 *.xlsx
+
+# Local data-share location; keeps internal paths out of the repository.
+restores_config.py

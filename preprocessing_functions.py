@@ -360,7 +360,7 @@ def filter_baseline(raw_signal, Fs): #this function is called in the apply_filte
     nyquist_freq = 0.5 * Fs
     normalized_cutoff = 450 / nyquist_freq # change cutoff frequency here
     #b,a = cheby2(10, 40, [20/nyquist_freq, 450/nyquist_freq], btype='bandpass', analog=False, output='ba', fs=Fs)
-    b,a = butter(4, [30,450], btype='band', analog=False, fs=10000)
+    b,a = butter(4, [30,450], btype='band', analog=False, fs=Fs) # finding 11: was hardcoded to 10000
     filtered_signal = filtfilt(b, a, raw_signal)    
     
     # Notch filter @ 50Hz and 17Hz and 40Hz
@@ -388,14 +388,16 @@ def apply_filters(raw_signal, baseline_signal, Fs): #input the raw baseline
     nyquist_freq = 0.5 * Fs
     normalized_cutoff = 450 / nyquist_freq # change cutoff frequency here
     #b,a = cheby2(10, 40, [20/nyquist_freq, 450/nyquist_freq], btype='bandpass', analog=False, output='ba', fs=Fs)
-    b,a = butter(4, [30,450], btype='band', analog=False, fs=10000)
+    b,a = butter(4, [30,450], btype='band', analog=False, fs=Fs) # finding 11: was hardcoded to 10000
     filtered_signal = filtfilt(b, a, raw_signal)    
     
     # Notch filter @ 50Hz and 17Hz and 40Hz
     Qstim = 30
     Qpowerline = 30
-    Nstimoff = list(range(0,500,17))
-    Nstimon = list(range(0,500,40))
+    # finding 12: these started at 0 Hz, which makes iirnotch degenerate.
+    # Start at the first real harmonic instead.
+    Nstimoff = list(range(17,500,17))
+    Nstimon = list(range(40,500,40))
     Npowerline = [50,100,150,200,250,300,350,400,450]
     for notch in Nstimoff:
         b,a = scipy.signal.iirnotch(notch, Qstim, Fs)
@@ -416,7 +418,7 @@ def apply_filters(raw_signal, baseline_signal, Fs): #input the raw baseline
     # Lowpass envelope
     nyquist_freq = 0.5 * Fs
     normalized_cutoff = 0.7 / nyquist_freq # change the cutoff frequence here to change smoothness
-    b,a = butter(2,0.7,btype='low', analog=False, fs=10000)
+    b,a = butter(2,0.7,btype='low', analog=False, fs=Fs) # finding 11: was hardcoded to 10000
     lowpass_envelope = filtfilt(b, a, rect_signal)
     #plt.plot(lowpass_envelope*20)
     # Find peaks and segment
@@ -455,7 +457,7 @@ def segmentation(filtered_signal, Fs):
     # Lowpass envelope
     nyquist_freq = 0.5 * Fs
     normalized_cutoff = 0.7 / nyquist_freq # change the cutoff frequence here to change smoothness
-    b,a = butter(2,0.7,btype='low', analog=False, fs=10000)
+    b,a = butter(2,0.7,btype='low', analog=False, fs=Fs) # finding 11: was hardcoded to 10000
     lowpass_envelope = filtfilt(b, a, rect_signal)
     #plt.plot(lowpass_envelope*20)
     # Find peaks and segment
@@ -487,38 +489,29 @@ def segmentation(filtered_signal, Fs):
     return movement_segments, movements
 
 ### FOR P3 #################
-def apply_filters_P3(raw_signal, baseline_signal, Fs): 
-    raw_signal = np.nan_to_num(raw_signal) # remove nan values in recording
-    #print('sdf')
-    # Low pass filter
-    nyquist_freq = 0.5 * Fs
-    normalized_cutoff = 450 / nyquist_freq # change cutoff frequency here
-    #b,a = cheby2(10, 40, [20/nyquist_freq, 450/nyquist_freq], btype='bandpass', analog=False, output='ba', fs=Fs)
-    b,a = butter(4, [30,450], btype='band', analog=False, fs=10000)
-    filtered_signal = filtfilt(b, a, raw_signal)    
+def apply_filters_P3(raw_signal, baseline_signal, Fs, remove_stim_artifact=True):
+    """Filter one analysed channel.
 
-    # Notch filter @ 50Hz and 17Hz and 40Hz
-    Qstim = 10
-    Qpowerline = 30
-    Nstimoff = list(range(0,500,17))
-    #Nstimon = list(range(0,500,40))
-    Npowerline = [50,100,150,200,250,300,350,400,450]
-    '''for notch in Nstimoff:
-        b,a = scipy.signal.iirnotch(notch, Qstim, Fs)
-        filtered_signal = lfilter(b, a, filtered_signal)
-    #for notch in Nstimon:
-    #    b,a = scipy.signal.iirnotch(notch, Qstim, Fs)
-    #    filtered_signal = lfilter(b, a, filtered_signal)
-    for notch in Npowerline:
-        b,a = scipy.signal.iirnotch(notch, Qpowerline, Fs)
-        filtered_signal = lfilter(b, a, filtered_signal)
-    
-    # Baseline subtraction and rectify
-    baseline_signal = filter_baseline(baseline_signal,Fs)
-    baseline_mean = np.nanmean(abs(baseline_signal))
-    rect_signal = np.array([max(0,x-baseline_mean) for x in abs(filtered_signal)])'''
-    
-    return np.array(filtered_signal)
+    FIXED (audit finding 01).  This function previously applied only a 30-450 Hz
+    bandpass: its notch cascade, baseline subtraction and rectification were all
+    inside a triple-quoted block and never executed.  Because every analysis
+    script routes its muscle-of-interest channel through here, the 40 Hz
+    stimulation artifact survived into every result.  Measured on P1 W10 that
+    artifact stands 28 dB above the local spectral background and accounts for
+    the whole reported stim-on coherence advantage.
+
+    The old notch code is not simply re-enabled: it ran 52 notches through
+    lfilter, which is causal and distorts phase, and it notched the stim-off
+    harmonic series during stim-on recordings and vice versa.  Artifact removal
+    now goes through emg_pipeline.clean(), which applies one zero-phase
+    second-order-section cascade.
+
+    Pass remove_stim_artifact=False to reproduce the original (contaminated)
+    behaviour for comparison.
+    """
+    from emg_pipeline import clean
+    return clean(raw_signal, fs=Fs, remove_stim=remove_stim_artifact,
+                 remove_mains=remove_stim_artifact)
 
 ############ FREQUENCY FILTERS ######################
 # Sliding window to get FFT filter from baseline
