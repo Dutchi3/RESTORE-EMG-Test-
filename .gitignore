@@ -7,3 +7,6 @@ __pycache__/
 
 # Local data-share location; keeps internal paths out of the repository.
 restores_config.py
+
+# QC run output - regenerable, tied to a point-in-time data snapshot.
+outputs/

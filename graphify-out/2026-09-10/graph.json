@@ -27,7 +27,7 @@
       "file_type": "code",
       "norm_label": "sessionfile",
       "source_file": "restores_csv.py",
-      "source_location": "L201"
+      "source_location": "L186"
     },
     {
       "id": "emg_pipeline_patient",
@@ -53,7 +53,7 @@
       "file_type": "code",
       "norm_label": "trial",
       "source_file": "emg_pipeline.py",
-      "source_location": "L673"
+      "source_location": "L671"
     },
     {
       "id": "restores_csv_agonists",
@@ -65,7 +65,7 @@
       "file_type": "code",
       "norm_label": "agonists()",
       "source_file": "restores_csv.py",
-      "source_location": "L267"
+      "source_location": "L252"
     },
     {
       "id": "restores_csv_baseline_for",
@@ -77,7 +77,7 @@
       "file_type": "code",
       "norm_label": "baseline_for()",
       "source_file": "restores_csv.py",
-      "source_location": "L257"
+      "source_location": "L242"
     },
     {
       "id": "restores_csv_classify",
@@ -89,7 +89,7 @@
       "file_type": "code",
       "norm_label": "_classify()",
       "source_file": "restores_csv.py",
-      "source_location": "L215"
+      "source_location": "L200"
     },
     {
       "id": "restores_csv_clock",
@@ -101,7 +101,7 @@
       "file_type": "code",
       "norm_label": "_clock()",
       "source_file": "restores_csv.py",
-      "source_location": "L187"
+      "source_location": "L172"
     },
     {
       "id": "restores_csv_list_session",
@@ -113,7 +113,7 @@
       "file_type": "code",
       "norm_label": "list_session()",
       "source_file": "restores_csv.py",
-      "source_location": "L232"
+      "source_location": "L217"
     },
     {
       "id": "restores_csv_load",
@@ -185,7 +185,7 @@
       "file_type": "code",
       "norm_label": "session_date()",
       "source_file": "restores_csv.py",
-      "source_location": "L283"
+      "source_location": "L268"
     },
     {
       "id": "restores_csv_sessionfile_name",
@@ -197,7 +197,7 @@
       "file_type": "code",
       "norm_label": ".name()",
       "source_file": "restores_csv.py",
-      "source_location": "L211"
+      "source_location": "L196"
     },
     {
       "id": "restores_csv_sessions",
@@ -209,7 +209,7 @@
       "file_type": "code",
       "norm_label": "sessions()",
       "source_file": "restores_csv.py",
-      "source_location": "L296"
+      "source_location": "L281"
     },
     {
       "id": "run_csv_qc_consensus_channels",
@@ -257,7 +257,7 @@
       "file_type": "code",
       "norm_label": "artifact_prominence()",
       "source_file": "emg_pipeline.py",
-      "source_location": "L759"
+      "source_location": "L757"
     },
     {
       "id": "emg_pipeline_blank_pulses",
@@ -305,7 +305,7 @@
       "file_type": "code",
       "norm_label": "detect_activation()",
       "source_file": "emg_pipeline.py",
-      "source_location": "L508"
+      "source_location": "L506"
     },
     {
       "id": "emg_pipeline_detect_pulse_train",
@@ -353,7 +353,7 @@
       "file_type": "code",
       "norm_label": "gain_scale()",
       "source_file": "emg_pipeline.py",
-      "source_location": "L647"
+      "source_location": "L645"
     },
     {
       "id": "emg_pipeline_is_environmental",
@@ -425,7 +425,7 @@
       "file_type": "code",
       "norm_label": "process_arrays()",
       "source_file": "emg_pipeline.py",
-      "source_location": "L695"
+      "source_location": "L693"
     },
     {
       "id": "emg_pipeline_pulse_train_consensus",
@@ -449,7 +449,7 @@
       "file_type": "code",
       "norm_label": "qc_row()",
       "source_file": "emg_pipeline.py",
-      "source_location": "L770"
+      "source_location": "L768"
     },
     {
       "id": "emg_pipeline_remove_artifact",
@@ -461,7 +461,7 @@
       "file_type": "code",
       "norm_label": "remove_artifact()",
       "source_file": "emg_pipeline.py",
-      "source_location": "L485"
+      "source_location": "L483"
     },
     {
       "id": "emg_pipeline_resolve_root",
@@ -497,7 +497,7 @@
       "file_type": "code",
       "norm_label": "robust_peak()",
       "source_file": "emg_pipeline.py",
-      "source_location": "L499"
+      "source_location": "L497"
     },
     {
       "id": "emg_pipeline_spike_times",
@@ -521,7 +521,7 @@
       "file_type": "code",
       "norm_label": ".active_fraction()",
       "source_file": "emg_pipeline.py",
-      "source_location": "L688"
+      "source_location": "L686"
     },
     {
       "id": "emg_pipeline_trial_rms",
@@ -533,7 +533,7 @@
       "file_type": "code",
       "norm_label": ".rms()",
       "source_file": "emg_pipeline.py",
-      "source_location": "L691"
+      "source_location": "L689"
     },
     {
       "id": "emg_pipeline_check_duplicate_recordings",
@@ -545,7 +545,7 @@
       "file_type": "code",
       "norm_label": "check_duplicate_recordings()",
       "source_file": "emg_pipeline.py",
-      "source_location": "L790"
+      "source_location": "L788"
     },
     {
       "id": "emg_pipeline_find_baseline",
@@ -557,7 +557,7 @@
       "file_type": "code",
       "norm_label": "find_baseline()",
       "source_file": "emg_pipeline.py",
-      "source_location": "L617"
+      "source_location": "L615"
     },
     {
       "id": "emg_pipeline_find_trials",
@@ -569,7 +569,7 @@
       "file_type": "code",
       "norm_label": "find_trials()",
       "source_file": "emg_pipeline.py",
-      "source_location": "L578"
+      "source_location": "L576"
     },
     {
       "id": "emg_pipeline_load_concatenated",
@@ -581,7 +581,7 @@
       "file_type": "code",
       "norm_label": "load_concatenated()",
       "source_file": "emg_pipeline.py",
-      "source_location": "L607"
+      "source_location": "L605"
     },
     {
       "id": "emg_pipeline_load_recording",
@@ -593,7 +593,7 @@
       "file_type": "code",
       "norm_label": "load_recording()",
       "source_file": "emg_pipeline.py",
-      "source_location": "L598"
+      "source_location": "L596"
     },
     {
       "id": "emg_pipeline_parse_name",
@@ -605,7 +605,7 @@
       "file_type": "code",
       "norm_label": "parse_name()",
       "source_file": "emg_pipeline.py",
-      "source_location": "L570"
+      "source_location": "L568"
     },
     {
       "id": "emg_pipeline_process_trial",
@@ -617,7 +617,7 @@
       "file_type": "code",
       "norm_label": "process_trial()",
       "source_file": "emg_pipeline.py",
-      "source_location": "L732"
+      "source_location": "L730"
     },
     {
       "id": "coherence_rms",
@@ -951,7 +951,7 @@
       "source_location": "L2"
     },
     {
-      "id": "restores_csv_rationale_233",
+      "id": "restores_csv_rationale_218",
       "label": "Every CSV in a session folder, with its stim condition resolved. Baselines\u2026",
       "_origin": "ast",
       "community": 0,
@@ -959,10 +959,10 @@
       "file_type": "rationale",
       "norm_label": "every csv in a session folder, with its stim condition resolved. baselines...",
       "source_file": "restores_csv.py",
-      "source_location": "L233"
+      "source_location": "L218"
     },
     {
-      "id": "restores_csv_rationale_258",
+      "id": "restores_csv_rationale_243",
       "label": "The rest recording in the requested condition, or None.",
       "_origin": "ast",
       "community": 0,
@@ -970,10 +970,10 @@
       "file_type": "rationale",
       "norm_label": "the rest recording in the requested condition, or none.",
       "source_file": "restores_csv.py",
-      "source_location": "L258"
+      "source_location": "L243"
     },
     {
-      "id": "restores_csv_rationale_268",
+      "id": "restores_csv_rationale_253",
       "label": "Channel indices for this exercise's agonists, or [] if unknown montage.",
       "_origin": "ast",
       "community": 0,
@@ -981,10 +981,10 @@
       "file_type": "rationale",
       "norm_label": "channel indices for this exercise's agonists, or [] if unknown montage.",
       "source_file": "restores_csv.py",
-      "source_location": "L268"
+      "source_location": "L253"
     },
     {
-      "id": "restores_csv_rationale_297",
+      "id": "restores_csv_rationale_282",
       "label": "-> [(date, phase, folder)] for every session under a RESTORESP{n} tree, sorted\u2026",
       "_origin": "ast",
       "community": 0,
@@ -992,7 +992,7 @@
       "file_type": "rationale",
       "norm_label": "-> [(date, phase, folder)] for every session under a restoresp{n} tree, sorted...",
       "source_file": "restores_csv.py",
-      "source_location": "L297"
+      "source_location": "L282"
     },
     {
       "id": "restores_csv_rationale_90",
@@ -1193,7 +1193,7 @@
       "source_location": "L448"
     },
     {
-      "id": "emg_pipeline_rationale_486",
+      "id": "emg_pipeline_rationale_484",
       "label": "Blank the pulses (if a rate was found), then bandpass + notches. stim_hz=None\u2026",
       "_origin": "ast",
       "community": 1,
@@ -1201,10 +1201,10 @@
       "file_type": "rationale",
       "norm_label": "blank the pulses (if a rate was found), then bandpass + notches. stim_hz=none...",
       "source_file": "emg_pipeline.py",
-      "source_location": "L486"
+      "source_location": "L484"
     },
     {
-      "id": "emg_pipeline_rationale_500",
+      "id": "emg_pipeline_rationale_498",
       "label": "Finding 17: max() is a single sample and one artifact spike rescales a whole\u2026",
       "_origin": "ast",
       "community": 1,
@@ -1212,10 +1212,10 @@
       "file_type": "rationale",
       "norm_label": "finding 17: max() is a single sample and one artifact spike rescales a whole...",
       "source_file": "emg_pipeline.py",
-      "source_location": "L500"
+      "source_location": "L498"
     },
     {
-      "id": "emg_pipeline_rationale_511",
+      "id": "emg_pipeline_rationale_509",
       "label": "Samples where the muscle is active. The threshold is derived from the *rest*\u2026",
       "_origin": "ast",
       "community": 1,
@@ -1223,10 +1223,10 @@
       "file_type": "rationale",
       "norm_label": "samples where the muscle is active. the threshold is derived from the *rest*...",
       "source_file": "emg_pipeline.py",
-      "source_location": "L511"
+      "source_location": "L509"
     },
     {
-      "id": "emg_pipeline_rationale_648",
+      "id": "emg_pipeline_rationale_646",
       "label": "Divide out the amplifier range so amplitudes are comparable across conditions\u2026",
       "_origin": "ast",
       "community": 1,
@@ -1234,10 +1234,10 @@
       "file_type": "rationale",
       "norm_label": "divide out the amplifier range so amplitudes are comparable across conditions...",
       "source_file": "emg_pipeline.py",
-      "source_location": "L648"
+      "source_location": "L646"
     },
     {
-      "id": "emg_pipeline_rationale_697",
+      "id": "emg_pipeline_rationale_695",
       "label": "Process one exercise given its (n_ch, N) array and its rest recording. Format-\u2026",
       "_origin": "ast",
       "community": 1,
@@ -1245,10 +1245,10 @@
       "file_type": "rationale",
       "norm_label": "process one exercise given its (n_ch, n) array and its rest recording. format-...",
       "source_file": "emg_pipeline.py",
-      "source_location": "L697"
+      "source_location": "L695"
     },
     {
-      "id": "emg_pipeline_rationale_760",
+      "id": "emg_pipeline_rationale_758",
       "label": "Height of the stimulation line above local spectral background, in dB.",
       "_origin": "ast",
       "community": 1,
@@ -1256,10 +1256,10 @@
       "file_type": "rationale",
       "norm_label": "height of the stimulation line above local spectral background, in db.",
       "source_file": "emg_pipeline.py",
-      "source_location": "L760"
+      "source_location": "L758"
     },
     {
-      "id": "emg_pipeline_rationale_771",
+      "id": "emg_pipeline_rationale_769",
       "label": "Per-trial quality metrics. The original emitted nothing like this, so a 26x\u2026",
       "_origin": "ast",
       "community": 1,
@@ -1267,7 +1267,7 @@
       "file_type": "rationale",
       "norm_label": "per-trial quality metrics. the original emitted nothing like this, so a 26x...",
       "source_file": "emg_pipeline.py",
-      "source_location": "L771"
+      "source_location": "L769"
     },
     {
       "id": "claude_skills_graphify_references_update",
@@ -1508,7 +1508,7 @@
       "source_location": "L1"
     },
     {
-      "id": "emg_pipeline_rationale_571",
+      "id": "emg_pipeline_rationale_569",
       "label": "-> (exercise_number, subtrial or None), or (None, None) if unnumbered.",
       "_origin": "ast",
       "community": 18,
@@ -1516,10 +1516,10 @@
       "file_type": "rationale",
       "norm_label": "-> (exercise_number, subtrial or none), or (none, none) if unnumbered.",
       "source_file": "emg_pipeline.py",
-      "source_location": "L571"
+      "source_location": "L569"
     },
     {
-      "id": "emg_pipeline_rationale_579",
+      "id": "emg_pipeline_rationale_577",
       "label": "Every file for one exercise, in subtrial order. Subtrial 4 is the 'controlled\u2026",
       "_origin": "ast",
       "community": 18,
@@ -1527,10 +1527,10 @@
       "file_type": "rationale",
       "norm_label": "every file for one exercise, in subtrial order. subtrial 4 is the 'controlled...",
       "source_file": "emg_pipeline.py",
-      "source_location": "L579"
+      "source_location": "L577"
     },
     {
-      "id": "emg_pipeline_rationale_599",
+      "id": "emg_pipeline_rationale_597",
       "label": "Load a .mat once and return the full (16, N) array. The original called loadmat\u2026",
       "_origin": "ast",
       "community": 18,
@@ -1538,10 +1538,10 @@
       "file_type": "rationale",
       "norm_label": "load a .mat once and return the full (16, n) array. the original called loadmat...",
       "source_file": "emg_pipeline.py",
-      "source_location": "L599"
+      "source_location": "L597"
     },
     {
-      "id": "emg_pipeline_rationale_608",
+      "id": "emg_pipeline_rationale_606",
       "label": "Concatenate the trials of one exercise into a single (16, N) array.",
       "_origin": "ast",
       "community": 18,
@@ -1549,10 +1549,10 @@
       "file_type": "rationale",
       "norm_label": "concatenate the trials of one exercise into a single (16, n) array.",
       "source_file": "emg_pipeline.py",
-      "source_location": "L608"
+      "source_location": "L606"
     },
     {
-      "id": "emg_pipeline_rationale_618",
+      "id": "emg_pipeline_rationale_616",
       "label": "The rest recording *recorded in the same stimulation condition*. This matters\u2026",
       "_origin": "ast",
       "community": 18,
@@ -1560,10 +1560,10 @@
       "file_type": "rationale",
       "norm_label": "the rest recording *recorded in the same stimulation condition*. this matters...",
       "source_file": "emg_pipeline.py",
-      "source_location": "L618"
+      "source_location": "L616"
     },
     {
-      "id": "emg_pipeline_rationale_734",
+      "id": "emg_pipeline_rationale_732",
       "label": "Load one exercise for one session (.mat tree) and return a Trial per electrode.\u2026",
       "_origin": "ast",
       "community": 18,
@@ -1571,10 +1571,10 @@
       "file_type": "rationale",
       "norm_label": "load one exercise for one session (.mat tree) and return a trial per electrode....",
       "source_file": "emg_pipeline.py",
-      "source_location": "L734"
+      "source_location": "L732"
     },
     {
-      "id": "emg_pipeline_rationale_791",
+      "id": "emg_pipeline_rationale_789",
       "label": "True when a session's stim-on recording is a byte-copy of its stim-off one.\u2026",
       "_origin": "ast",
       "community": 18,
@@ -1582,7 +1582,7 @@
       "file_type": "rationale",
       "norm_label": "true when a session's stim-on recording is a byte-copy of its stim-off one....",
       "source_file": "emg_pipeline.py",
-      "source_location": "L791"
+      "source_location": "L789"
     },
     {
       "id": "coherence",
@@ -2960,7 +2960,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "emg_pipeline.py",
-      "source_location": "L798",
+      "source_location": "L796",
       "weight": 1.0
     },
     {
@@ -2972,7 +2972,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "emg_pipeline.py",
-      "source_location": "L803",
+      "source_location": "L801",
       "weight": 1.0
     },
     {
@@ -2996,7 +2996,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "emg_pipeline.py",
-      "source_location": "L537",
+      "source_location": "L535",
       "weight": 1.0
     },
     {
@@ -3020,7 +3020,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "emg_pipeline.py",
-      "source_location": "L634",
+      "source_location": "L632",
       "weight": 1.0
     },
     {
@@ -3032,7 +3032,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "emg_pipeline.py",
-      "source_location": "L589",
+      "source_location": "L587",
       "weight": 1.0
     },
     {
@@ -3044,7 +3044,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "emg_pipeline.py",
-      "source_location": "L609",
+      "source_location": "L607",
       "weight": 1.0
     },
     {
@@ -3080,7 +3080,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "emg_pipeline.py",
-      "source_location": "L707",
+      "source_location": "L705",
       "weight": 1.0
     },
     {
@@ -3092,7 +3092,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "emg_pipeline.py",
-      "source_location": "L710",
+      "source_location": "L708",
       "weight": 1.0
     },
     {
@@ -3104,7 +3104,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "emg_pipeline.py",
-      "source_location": "L720",
+      "source_location": "L718",
       "weight": 1.0
     },
     {
@@ -3116,7 +3116,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "emg_pipeline.py",
-      "source_location": "L726",
+      "source_location": "L724",
       "weight": 1.0
     },
     {
@@ -3128,7 +3128,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "emg_pipeline.py",
-      "source_location": "L727",
+      "source_location": "L725",
       "weight": 1.0
     },
     {
@@ -3140,7 +3140,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "emg_pipeline.py",
-      "source_location": "L743",
+      "source_location": "L741",
       "weight": 1.0
     },
     {
@@ -3152,7 +3152,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "emg_pipeline.py",
-      "source_location": "L746",
+      "source_location": "L744",
       "weight": 1.0
     },
     {
@@ -3164,7 +3164,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "emg_pipeline.py",
-      "source_location": "L750",
+      "source_location": "L748",
       "weight": 1.0
     },
     {
@@ -3176,7 +3176,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "emg_pipeline.py",
-      "source_location": "L750",
+      "source_location": "L748",
       "weight": 1.0
     },
     {
@@ -3188,7 +3188,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "emg_pipeline.py",
-      "source_location": "L750",
+      "source_location": "L748",
       "weight": 1.0
     },
     {
@@ -3212,7 +3212,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "emg_pipeline.py",
-      "source_location": "L785",
+      "source_location": "L783",
       "weight": 1.0
     },
     {
@@ -3224,7 +3224,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "emg_pipeline.py",
-      "source_location": "L495",
+      "source_location": "L493",
       "weight": 1.0
     },
     {
@@ -3236,7 +3236,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "emg_pipeline.py",
-      "source_location": "L496",
+      "source_location": "L494",
       "weight": 1.0
     },
     {
@@ -3320,7 +3320,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "restores_csv.py",
-      "source_location": "L229",
+      "source_location": "L214",
       "weight": 1.0
     },
     {
@@ -3332,7 +3332,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "restores_csv.py",
-      "source_location": "L240",
+      "source_location": "L225",
       "weight": 1.0
     },
     {
@@ -3356,7 +3356,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "restores_csv.py",
-      "source_location": "L182",
+      "source_location": "L167",
       "weight": 1.0
     },
     {
@@ -3380,7 +3380,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "restores_csv.py",
-      "source_location": "L311",
+      "source_location": "L296",
       "weight": 1.0
     },
     {
@@ -3392,7 +3392,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "run_csv_qc.py",
-      "source_location": "L163",
+      "source_location": "L162",
       "weight": 1.0
     },
     {
@@ -3404,7 +3404,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "run_csv_qc.py",
-      "source_location": "L171",
+      "source_location": "L168",
       "weight": 1.0
     },
     {
@@ -4172,7 +4172,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "restores_csv.py",
-      "source_location": "L267",
+      "source_location": "L252",
       "weight": 1.0
     },
     {
@@ -4184,7 +4184,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "restores_csv.py",
-      "source_location": "L267",
+      "source_location": "L252",
       "weight": 1.0
     },
     {
@@ -5460,7 +5460,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "emg_pipeline.py",
-      "source_location": "L485",
+      "source_location": "L483",
       "weight": 1.0
     },
     {
@@ -5471,7 +5471,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "emg_pipeline.py",
-      "source_location": "L499",
+      "source_location": "L497",
       "weight": 1.0
     },
     {
@@ -5482,7 +5482,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "emg_pipeline.py",
-      "source_location": "L508",
+      "source_location": "L506",
       "weight": 1.0
     },
     {
@@ -5493,7 +5493,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "emg_pipeline.py",
-      "source_location": "L570",
+      "source_location": "L568",
       "weight": 1.0
     },
     {
@@ -5504,7 +5504,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "emg_pipeline.py",
-      "source_location": "L578",
+      "source_location": "L576",
       "weight": 1.0
     },
     {
@@ -5515,7 +5515,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "emg_pipeline.py",
-      "source_location": "L598",
+      "source_location": "L596",
       "weight": 1.0
     },
     {
@@ -5526,7 +5526,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "emg_pipeline.py",
-      "source_location": "L607",
+      "source_location": "L605",
       "weight": 1.0
     },
     {
@@ -5548,7 +5548,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "emg_pipeline.py",
-      "source_location": "L617",
+      "source_location": "L615",
       "weight": 1.0
     },
     {
@@ -5559,7 +5559,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "emg_pipeline.py",
-      "source_location": "L647",
+      "source_location": "L645",
       "weight": 1.0
     },
     {
@@ -5570,7 +5570,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "emg_pipeline.py",
-      "source_location": "L673",
+      "source_location": "L671",
       "weight": 1.0
     },
     {
@@ -5581,7 +5581,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "emg_pipeline.py",
-      "source_location": "L695",
+      "source_location": "L693",
       "weight": 1.0
     },
     {
@@ -5592,7 +5592,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "emg_pipeline.py",
-      "source_location": "L732",
+      "source_location": "L730",
       "weight": 1.0
     },
     {
@@ -5603,7 +5603,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "emg_pipeline.py",
-      "source_location": "L759",
+      "source_location": "L757",
       "weight": 1.0
     },
     {
@@ -5614,7 +5614,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "emg_pipeline.py",
-      "source_location": "L770",
+      "source_location": "L768",
       "weight": 1.0
     },
     {
@@ -5625,7 +5625,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "emg_pipeline.py",
-      "source_location": "L790",
+      "source_location": "L788",
       "weight": 1.0
     },
     {
@@ -5856,7 +5856,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "restores_csv.py",
-      "source_location": "L187",
+      "source_location": "L172",
       "weight": 1.0
     },
     {
@@ -5867,7 +5867,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "restores_csv.py",
-      "source_location": "L201",
+      "source_location": "L186",
       "weight": 1.0
     },
     {
@@ -5878,7 +5878,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "restores_csv.py",
-      "source_location": "L215",
+      "source_location": "L200",
       "weight": 1.0
     },
     {
@@ -5889,7 +5889,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "restores_csv.py",
-      "source_location": "L232",
+      "source_location": "L217",
       "weight": 1.0
     },
     {
@@ -5900,7 +5900,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "restores_csv.py",
-      "source_location": "L257",
+      "source_location": "L242",
       "weight": 1.0
     },
     {
@@ -5911,7 +5911,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "restores_csv.py",
-      "source_location": "L267",
+      "source_location": "L252",
       "weight": 1.0
     },
     {
@@ -5922,7 +5922,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "restores_csv.py",
-      "source_location": "L283",
+      "source_location": "L268",
       "weight": 1.0
     },
     {
@@ -5933,7 +5933,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "restores_csv.py",
-      "source_location": "L296",
+      "source_location": "L281",
       "weight": 1.0
     },
     {
@@ -6043,7 +6043,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "emg_pipeline.py",
-      "source_location": "L688",
+      "source_location": "L686",
       "weight": 1.0
     },
     {
@@ -6054,7 +6054,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "emg_pipeline.py",
-      "source_location": "L691",
+      "source_location": "L689",
       "weight": 1.0
     },
     {
@@ -6098,7 +6098,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "restores_csv.py",
-      "source_location": "L211",
+      "source_location": "L196",
       "weight": 1.0
     },
     {
@@ -6278,157 +6278,157 @@
       "weight": 1.0
     },
     {
-      "source": "emg_pipeline_rationale_486",
+      "source": "emg_pipeline_rationale_484",
       "target": "emg_pipeline_remove_artifact",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "emg_pipeline.py",
-      "source_location": "L486",
+      "source_location": "L484",
       "weight": 1.0
     },
     {
-      "source": "emg_pipeline_rationale_500",
+      "source": "emg_pipeline_rationale_498",
       "target": "emg_pipeline_robust_peak",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "emg_pipeline.py",
-      "source_location": "L500",
+      "source_location": "L498",
       "weight": 1.0
     },
     {
-      "source": "emg_pipeline_rationale_511",
+      "source": "emg_pipeline_rationale_509",
       "target": "emg_pipeline_detect_activation",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "emg_pipeline.py",
-      "source_location": "L511",
+      "source_location": "L509",
       "weight": 1.0
     },
     {
-      "source": "emg_pipeline_rationale_571",
+      "source": "emg_pipeline_rationale_569",
       "target": "emg_pipeline_parse_name",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "emg_pipeline.py",
-      "source_location": "L571",
+      "source_location": "L569",
       "weight": 1.0
     },
     {
-      "source": "emg_pipeline_rationale_579",
+      "source": "emg_pipeline_rationale_577",
       "target": "emg_pipeline_find_trials",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "emg_pipeline.py",
-      "source_location": "L579",
+      "source_location": "L577",
       "weight": 1.0
     },
     {
-      "source": "emg_pipeline_rationale_599",
+      "source": "emg_pipeline_rationale_597",
       "target": "emg_pipeline_load_recording",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "emg_pipeline.py",
-      "source_location": "L599",
+      "source_location": "L597",
       "weight": 1.0
     },
     {
-      "source": "emg_pipeline_rationale_608",
+      "source": "emg_pipeline_rationale_606",
       "target": "emg_pipeline_load_concatenated",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "emg_pipeline.py",
-      "source_location": "L608",
+      "source_location": "L606",
       "weight": 1.0
     },
     {
-      "source": "emg_pipeline_rationale_618",
+      "source": "emg_pipeline_rationale_616",
       "target": "emg_pipeline_find_baseline",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "emg_pipeline.py",
-      "source_location": "L618",
+      "source_location": "L616",
       "weight": 1.0
     },
     {
-      "source": "emg_pipeline_rationale_648",
+      "source": "emg_pipeline_rationale_646",
       "target": "emg_pipeline_gain_scale",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "emg_pipeline.py",
-      "source_location": "L648",
+      "source_location": "L646",
       "weight": 1.0
     },
     {
-      "source": "emg_pipeline_rationale_697",
+      "source": "emg_pipeline_rationale_695",
       "target": "emg_pipeline_process_arrays",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "emg_pipeline.py",
-      "source_location": "L697",
+      "source_location": "L695",
       "weight": 1.0
     },
     {
-      "source": "emg_pipeline_rationale_734",
+      "source": "emg_pipeline_rationale_732",
       "target": "emg_pipeline_process_trial",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "emg_pipeline.py",
-      "source_location": "L734",
+      "source_location": "L732",
       "weight": 1.0
     },
     {
-      "source": "emg_pipeline_rationale_760",
+      "source": "emg_pipeline_rationale_758",
       "target": "emg_pipeline_artifact_prominence",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "emg_pipeline.py",
-      "source_location": "L760",
+      "source_location": "L758",
       "weight": 1.0
     },
     {
-      "source": "emg_pipeline_rationale_771",
+      "source": "emg_pipeline_rationale_769",
       "target": "emg_pipeline_qc_row",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "emg_pipeline.py",
-      "source_location": "L771",
+      "source_location": "L769",
       "weight": 1.0
     },
     {
-      "source": "emg_pipeline_rationale_791",
+      "source": "emg_pipeline_rationale_789",
       "target": "emg_pipeline_check_duplicate_recordings",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "emg_pipeline.py",
-      "source_location": "L791",
+      "source_location": "L789",
       "weight": 1.0
     },
     {
@@ -6531,47 +6531,47 @@
       "weight": 1.0
     },
     {
-      "source": "restores_csv_rationale_233",
+      "source": "restores_csv_rationale_218",
       "target": "restores_csv_list_session",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "restores_csv.py",
-      "source_location": "L233",
+      "source_location": "L218",
       "weight": 1.0
     },
     {
-      "source": "restores_csv_rationale_258",
+      "source": "restores_csv_rationale_243",
       "target": "restores_csv_baseline_for",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "restores_csv.py",
-      "source_location": "L258",
+      "source_location": "L243",
       "weight": 1.0
     },
     {
-      "source": "restores_csv_rationale_268",
+      "source": "restores_csv_rationale_253",
       "target": "restores_csv_agonists",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "restores_csv.py",
-      "source_location": "L268",
+      "source_location": "L253",
       "weight": 1.0
     },
     {
-      "source": "restores_csv_rationale_297",
+      "source": "restores_csv_rationale_282",
       "target": "restores_csv_sessions",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "restores_csv.py",
-      "source_location": "L297",
+      "source_location": "L282",
       "weight": 1.0
     },
     {
