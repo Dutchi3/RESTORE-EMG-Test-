@@ -1,0 +1,68 @@
+{
+  ".agents/skills/scientific-pkg-neurokit2/SKILL.json": {
+    "mtime": 1788919105.1477337,
+    "seen": 1789007153.0461767,
+    "ast_hash": "1a6a8952a74df3423b1d06a204555622",
+    "semantic_hash": "1a6a8952a74df3423b1d06a204555622"
+  },
+  ".claude/settings.json": {
+    "mtime": 1789006948.3097558,
+    "seen": 1789007153.046183,
+    "ast_hash": "8d0b8cd2cddeeba6ace4d2fd1e77577b",
+    "semantic_hash": "8d0b8cd2cddeeba6ace4d2fd1e77577b"
+  },
+  "Clinical Scores code.py": {
+    "mtime": 1769158382.241183,
+    "seen": 1789007153.046186,
+    "ast_hash": "b89c537086e22db99605eee0ce280230",
+    "semantic_hash": "b89c537086e22db99605eee0ce280230"
+  },
+  "coherence.py": {
+    "mtime": 1788939402.7419727,
+    "seen": 1789007153.0461879,
+    "ast_hash": "90fd92d5530db9412045a979def92432",
+    "semantic_hash": "90fd92d5530db9412045a979def92432"
+  },
+  "emg_pipeline.py": {
+    "mtime": 1788941126.8477094,
+    "seen": 1789007153.0461898,
+    "ast_hash": "c7967355d1d2f1e438f846b5a4b78b68",
+    "semantic_hash": "c7967355d1d2f1e438f846b5a4b78b68"
+  },
+  "normalize to baseline.py": {
+    "mtime": 1788939489.7127059,
+    "seen": 1789007153.0461917,
+    "ast_hash": "a052ee67d80377603e54cff71abba3a3",
+    "semantic_hash": "a052ee67d80377603e54cff71abba3a3"
+  },
+  "normalize to peak.py": {
+    "mtime": 1778480885.2932918,
+    "seen": 1789007153.0461934,
+    "ast_hash": "73bc9b78e6a24d4732d079da40546be6",
+    "semantic_hash": "73bc9b78e6a24d4732d079da40546be6"
+  },
+  "on vs off.py": {
+    "mtime": 1777442384.04242,
+    "seen": 1789007153.0461953,
+    "ast_hash": "44aaccf3f25a67adc83309e7802c3de9",
+    "semantic_hash": "44aaccf3f25a67adc83309e7802c3de9"
+  },
+  "plot all exercises and segment.py": {
+    "mtime": 1788854561.864506,
+    "seen": 1789007153.046197,
+    "ast_hash": "547d38d05c0df5d1dcc65d369aedddb3",
+    "semantic_hash": "547d38d05c0df5d1dcc65d369aedddb3"
+  },
+  "preprocessing_functions.py": {
+    "mtime": 1788939394.4744923,
+    "seen": 1789007153.0461986,
+    "ast_hash": "8c68ee156cd7c3281e38e3c0924d3d71",
+    "semantic_hash": "8c68ee156cd7c3281e38e3c0924d3d71"
+  },
+  "synergies stim off vs on.py": {
+    "mtime": 1778480856.3540068,
+    "seen": 1789007153.0462003,
+    "ast_hash": "1765af92412bd6baff0bb5b2c9c9978c",
+    "semantic_hash": "1765af92412bd6baff0bb5b2c9c9978c"
+  }
+}
