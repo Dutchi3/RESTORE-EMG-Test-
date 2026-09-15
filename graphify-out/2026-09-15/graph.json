@@ -53,7 +53,7 @@
       "file_type": "code",
       "norm_label": "track",
       "source_file": "gait_video.py",
-      "source_location": "L109"
+      "source_location": "L106"
     },
     {
       "id": "emg_pipeline_trial",
@@ -90,7 +90,7 @@
       "file_type": "code",
       "norm_label": "agonists()",
       "source_file": "restores_csv.py",
-      "source_location": "L284"
+      "source_location": "L282"
     },
     {
       "id": "restores_csv_baseline_for",
@@ -102,7 +102,7 @@
       "file_type": "code",
       "norm_label": "baseline_for()",
       "source_file": "restores_csv.py",
-      "source_location": "L271"
+      "source_location": "L269"
     },
     {
       "id": "restores_csv_classify",
@@ -114,7 +114,7 @@
       "file_type": "code",
       "norm_label": "_classify()",
       "source_file": "restores_csv.py",
-      "source_location": "L221"
+      "source_location": "L220"
     },
     {
       "id": "restores_csv_clock",
@@ -138,7 +138,7 @@
       "file_type": "code",
       "norm_label": "list_session()",
       "source_file": "restores_csv.py",
-      "source_location": "L246"
+      "source_location": "L244"
     },
     {
       "id": "restores_csv_load",
@@ -210,7 +210,7 @@
       "file_type": "code",
       "norm_label": "session_date()",
       "source_file": "restores_csv.py",
-      "source_location": "L302"
+      "source_location": "L300"
     },
     {
       "id": "restores_csv_sessionfile_name",
@@ -222,7 +222,7 @@
       "file_type": "code",
       "norm_label": ".name()",
       "source_file": "restores_csv.py",
-      "source_location": "L214"
+      "source_location": "L213"
     },
     {
       "id": "restores_csv_sessions",
@@ -234,7 +234,7 @@
       "file_type": "code",
       "norm_label": "sessions()",
       "source_file": "restores_csv.py",
-      "source_location": "L315"
+      "source_location": "L313"
     },
     {
       "id": "run_csv_qc_consensus_channels",
@@ -294,7 +294,7 @@
       "file_type": "code",
       "norm_label": "main()",
       "source_file": "run_walking_emg.py",
-      "source_location": "L175"
+      "source_location": "L174"
     },
     {
       "id": "run_walking_emg_plot_cycles",
@@ -306,7 +306,7 @@
       "file_type": "code",
       "norm_label": "plot_cycles()",
       "source_file": "run_walking_emg.py",
-      "source_location": "L147"
+      "source_location": "L146"
     },
     {
       "id": "run_walking_emg_stim_rate",
@@ -486,7 +486,7 @@
       "file_type": "code",
       "norm_label": "analyze_video()",
       "source_file": "gait_video.py",
-      "source_location": "L785"
+      "source_location": "L782"
     },
     {
       "id": "gait_video_choose_method",
@@ -498,7 +498,7 @@
       "file_type": "code",
       "norm_label": "choose_method()",
       "source_file": "gait_video.py",
-      "source_location": "L480"
+      "source_location": "L477"
     },
     {
       "id": "gait_video_compute_kinematics",
@@ -510,7 +510,7 @@
       "file_type": "code",
       "norm_label": "compute_kinematics()",
       "source_file": "gait_video.py",
-      "source_location": "L298"
+      "source_location": "L295"
     },
     {
       "id": "gait_video_consistency",
@@ -522,7 +522,7 @@
       "file_type": "code",
       "norm_label": "_consistency()",
       "source_file": "gait_video.py",
-      "source_location": "L613"
+      "source_location": "L610"
     },
     {
       "id": "gait_video_detect_events",
@@ -534,7 +534,7 @@
       "file_type": "code",
       "norm_label": "detect_events()",
       "source_file": "gait_video.py",
-      "source_location": "L487"
+      "source_location": "L484"
     },
     {
       "id": "gait_video_dominant_period",
@@ -546,7 +546,7 @@
       "file_type": "code",
       "norm_label": "dominant_period()",
       "source_file": "gait_video.py",
-      "source_location": "L392"
+      "source_location": "L389"
     },
     {
       "id": "gait_video_end_of_rise",
@@ -558,7 +558,7 @@
       "file_type": "code",
       "norm_label": "_end_of_rise()",
       "source_file": "gait_video.py",
-      "source_location": "L427"
+      "source_location": "L424"
     },
     {
       "id": "gait_video_event_signals",
@@ -570,7 +570,7 @@
       "file_type": "code",
       "norm_label": "event_signals()",
       "source_file": "gait_video.py",
-      "source_location": "L467"
+      "source_location": "L464"
     },
     {
       "id": "gait_video_interp_nan",
@@ -582,7 +582,7 @@
       "file_type": "code",
       "norm_label": "_interp_nan()",
       "source_file": "gait_video.py",
-      "source_location": "L383"
+      "source_location": "L380"
     },
     {
       "id": "gait_video_joint_angle",
@@ -594,7 +594,7 @@
       "file_type": "code",
       "norm_label": "joint_angle()",
       "source_file": "gait_video.py",
-      "source_location": "L272"
+      "source_location": "L269"
     },
     {
       "id": "gait_video_load_track",
@@ -606,7 +606,7 @@
       "file_type": "code",
       "norm_label": "load_track()",
       "source_file": "gait_video.py",
-      "source_location": "L221"
+      "source_location": "L218"
     },
     {
       "id": "gait_video_long_gaps",
@@ -618,7 +618,7 @@
       "file_type": "code",
       "norm_label": "_long_gaps()",
       "source_file": "gait_video.py",
-      "source_location": "L238"
+      "source_location": "L235"
     },
     {
       "id": "gait_video_model_path",
@@ -630,7 +630,7 @@
       "file_type": "code",
       "norm_label": "model_path()",
       "source_file": "gait_video.py",
-      "source_location": "L93"
+      "source_location": "L90"
     },
     {
       "id": "gait_video_normalize_cycles",
@@ -642,7 +642,7 @@
       "file_type": "code",
       "norm_label": "normalize_cycles()",
       "source_file": "gait_video.py",
-      "source_location": "L590"
+      "source_location": "L587"
     },
     {
       "id": "gait_video_onset_of_fall",
@@ -654,7 +654,7 @@
       "file_type": "code",
       "norm_label": "_onset_of_fall()",
       "source_file": "gait_video.py",
-      "source_location": "L447"
+      "source_location": "L444"
     },
     {
       "id": "gait_video_peaks",
@@ -666,7 +666,7 @@
       "file_type": "code",
       "norm_label": "_peaks()",
       "source_file": "gait_video.py",
-      "source_location": "L282"
+      "source_location": "L279"
     },
     {
       "id": "gait_video_pick_pose",
@@ -678,7 +678,7 @@
       "file_type": "code",
       "norm_label": "_pick_pose()",
       "source_file": "gait_video.py",
-      "source_location": "L130"
+      "source_location": "L127"
     },
     {
       "id": "gait_video_plot_cycles",
@@ -690,7 +690,7 @@
       "file_type": "code",
       "norm_label": "plot_cycles()",
       "source_file": "gait_video.py",
-      "source_location": "L708"
+      "source_location": "L705"
     },
     {
       "id": "gait_video_plot_traces",
@@ -702,7 +702,7 @@
       "file_type": "code",
       "norm_label": "plot_traces()",
       "source_file": "gait_video.py",
-      "source_location": "L673"
+      "source_location": "L670"
     },
     {
       "id": "gait_video_rom",
@@ -714,7 +714,7 @@
       "file_type": "code",
       "norm_label": "_rom()",
       "source_file": "gait_video.py",
-      "source_location": "L586"
+      "source_location": "L583"
     },
     {
       "id": "gait_video_save_track",
@@ -726,7 +726,7 @@
       "file_type": "code",
       "norm_label": "save_track()",
       "source_file": "gait_video.py",
-      "source_location": "L207"
+      "source_location": "L204"
     },
     {
       "id": "gait_video_si",
@@ -738,7 +738,7 @@
       "file_type": "code",
       "norm_label": "_si()",
       "source_file": "gait_video.py",
-      "source_location": "L622"
+      "source_location": "L619"
     },
     {
       "id": "gait_video_smooth_series",
@@ -750,7 +750,7 @@
       "file_type": "code",
       "norm_label": "smooth_series()",
       "source_file": "gait_video.py",
-      "source_location": "L251"
+      "source_location": "L248"
     },
     {
       "id": "gait_video_stride_table",
@@ -762,7 +762,7 @@
       "file_type": "code",
       "norm_label": "stride_table()",
       "source_file": "gait_video.py",
-      "source_location": "L531"
+      "source_location": "L528"
     },
     {
       "id": "gait_video_summarize",
@@ -774,7 +774,7 @@
       "file_type": "code",
       "norm_label": "summarize()",
       "source_file": "gait_video.py",
-      "source_location": "L629"
+      "source_location": "L626"
     },
     {
       "id": "gait_video_track_detected",
@@ -786,7 +786,7 @@
       "file_type": "code",
       "norm_label": ".detected()",
       "source_file": "gait_video.py",
-      "source_location": "L126"
+      "source_location": "L123"
     },
     {
       "id": "gait_video_track_n_frames",
@@ -798,7 +798,7 @@
       "file_type": "code",
       "norm_label": ".n_frames()",
       "source_file": "gait_video.py",
-      "source_location": "L122"
+      "source_location": "L119"
     },
     {
       "id": "gait_video_track_video",
@@ -810,7 +810,7 @@
       "file_type": "code",
       "norm_label": "track_video()",
       "source_file": "gait_video.py",
-      "source_location": "L146"
+      "source_location": "L143"
     },
     {
       "id": "gait_video_view_label",
@@ -822,7 +822,7 @@
       "file_type": "code",
       "norm_label": "view_label()",
       "source_file": "gait_video.py",
-      "source_location": "L373"
+      "source_location": "L370"
     },
     {
       "id": "gait_video_walking_mask",
@@ -834,7 +834,7 @@
       "file_type": "code",
       "norm_label": "walking_mask()",
       "source_file": "gait_video.py",
-      "source_location": "L417"
+      "source_location": "L414"
     },
     {
       "id": "gait_video_write_annotated",
@@ -846,7 +846,7 @@
       "file_type": "code",
       "norm_label": "write_annotated()",
       "source_file": "gait_video.py",
-      "source_location": "L733"
+      "source_location": "L730"
     },
     {
       "id": "coherence_rms",
@@ -1442,7 +1442,7 @@
       "source_location": "L2"
     },
     {
-      "id": "restores_csv_rationale_247",
+      "id": "restores_csv_rationale_245",
       "label": "Every CSV in a session folder, with its stim condition resolved. Baselines\u2026",
       "_origin": "ast",
       "community": 0,
@@ -1450,10 +1450,10 @@
       "file_type": "rationale",
       "norm_label": "every csv in a session folder, with its stim condition resolved. baselines...",
       "source_file": "restores_csv.py",
-      "source_location": "L247"
+      "source_location": "L245"
     },
     {
-      "id": "restores_csv_rationale_272",
+      "id": "restores_csv_rationale_270",
       "label": "The rest recording in the requested condition, or None.",
       "_origin": "ast",
       "community": 0,
@@ -1461,10 +1461,10 @@
       "file_type": "rationale",
       "norm_label": "the rest recording in the requested condition, or none.",
       "source_file": "restores_csv.py",
-      "source_location": "L272"
+      "source_location": "L270"
     },
     {
-      "id": "restores_csv_rationale_285",
+      "id": "restores_csv_rationale_283",
       "label": "Channel indices for this exercise's agonists, or [] if unknown montage.",
       "_origin": "ast",
       "community": 0,
@@ -1472,10 +1472,10 @@
       "file_type": "rationale",
       "norm_label": "channel indices for this exercise's agonists, or [] if unknown montage.",
       "source_file": "restores_csv.py",
-      "source_location": "L285"
+      "source_location": "L283"
     },
     {
-      "id": "restores_csv_rationale_316",
+      "id": "restores_csv_rationale_314",
       "label": "-> [(date, phase, folder)] for every session under a RESTORESP{n} tree, sorted\u2026",
       "_origin": "ast",
       "community": 0,
@@ -1483,7 +1483,7 @@
       "file_type": "rationale",
       "norm_label": "-> [(date, phase, folder)] for every session under a restoresp{n} tree, sorted...",
       "source_file": "restores_csv.py",
-      "source_location": "L316"
+      "source_location": "L314"
     },
     {
       "id": "restores_csv_rationale_90",
@@ -1969,7 +1969,7 @@
       "source_location": "L1"
     },
     {
-      "id": "gait_video_rationale_131",
+      "id": "gait_video_rationale_128",
       "label": "Index of the pose to follow: nearest to the last hip position, else largest.",
       "_origin": "ast",
       "community": 19,
@@ -1977,10 +1977,10 @@
       "file_type": "rationale",
       "norm_label": "index of the pose to follow: nearest to the last hip position, else largest.",
       "source_file": "gait_video.py",
-      "source_location": "L131"
+      "source_location": "L128"
     },
     {
-      "id": "gait_video_rationale_148",
+      "id": "gait_video_rationale_145",
       "label": "Run the pose landmarker over every frame. ~8 fps with 'heavy' on CPU.",
       "_origin": "ast",
       "community": 19,
@@ -1988,7 +1988,7 @@
       "file_type": "rationale",
       "norm_label": "run the pose landmarker over every frame. ~8 fps with 'heavy' on cpu.",
       "source_file": "gait_video.py",
-      "source_location": "L148"
+      "source_location": "L145"
     },
     {
       "id": "gait_video_rationale_2",
@@ -2002,7 +2002,7 @@
       "source_location": "L2"
     },
     {
-      "id": "gait_video_rationale_208",
+      "id": "gait_video_rationale_205",
       "label": "Raw per-frame landmarks (pixels, visibility, world metres) for the 12 gait\u2026",
       "_origin": "ast",
       "community": 19,
@@ -2010,10 +2010,10 @@
       "file_type": "rationale",
       "norm_label": "raw per-frame landmarks (pixels, visibility, world metres) for the 12 gait...",
       "source_file": "gait_video.py",
-      "source_location": "L208"
+      "source_location": "L205"
     },
     {
-      "id": "gait_video_rationale_222",
+      "id": "gait_video_rationale_219",
       "label": "Rebuild a Track (gait landmarks only) from save_track output, to skip re-\u2026",
       "_origin": "ast",
       "community": 19,
@@ -2021,10 +2021,10 @@
       "file_type": "rationale",
       "norm_label": "rebuild a track (gait landmarks only) from save_track output, to skip re-...",
       "source_file": "gait_video.py",
-      "source_location": "L222"
+      "source_location": "L219"
     },
     {
-      "id": "gait_video_rationale_239",
+      "id": "gait_video_rationale_236",
       "label": "Mask of samples inside runs of ~ok longer than max_len.",
       "_origin": "ast",
       "community": 19,
@@ -2032,10 +2032,10 @@
       "file_type": "rationale",
       "norm_label": "mask of samples inside runs of ~ok longer than max_len.",
       "source_file": "gait_video.py",
-      "source_location": "L239"
+      "source_location": "L236"
     },
     {
-      "id": "gait_video_rationale_252",
+      "id": "gait_video_rationale_249",
       "label": "Zero-phase low-pass of a series with NaN gaps. Gaps shorter than max_gap_s are\u2026",
       "_origin": "ast",
       "community": 19,
@@ -2043,10 +2043,10 @@
       "file_type": "rationale",
       "norm_label": "zero-phase low-pass of a series with nan gaps. gaps shorter than max_gap_s are...",
       "source_file": "gait_video.py",
-      "source_location": "L252"
+      "source_location": "L249"
     },
     {
-      "id": "gait_video_rationale_273",
+      "id": "gait_video_rationale_270",
       "label": "Interior angle ABC in degrees at vertex b; arrays (n, d) with d = 2 or 3. 180 =\u2026",
       "_origin": "ast",
       "community": 19,
@@ -2054,10 +2054,10 @@
       "file_type": "rationale",
       "norm_label": "interior angle abc in degrees at vertex b; arrays (n, d) with d = 2 or 3. 180 =...",
       "source_file": "gait_video.py",
-      "source_location": "L273"
+      "source_location": "L270"
     },
     {
-      "id": "gait_video_rationale_283",
+      "id": "gait_video_rationale_280",
       "label": "Peak indices of a NaN-bearing series; peaks inside NaN stretches are dropped.",
       "_origin": "ast",
       "community": 19,
@@ -2065,10 +2065,10 @@
       "file_type": "rationale",
       "norm_label": "peak indices of a nan-bearing series; peaks inside nan stretches are dropped.",
       "source_file": "gait_video.py",
-      "source_location": "L283"
+      "source_location": "L280"
     },
     {
-      "id": "gait_video_rationale_299",
+      "id": "gait_video_rationale_296",
       "label": "One row per frame: validity, view, joint angles (2-D pixel, 3-D world, legacy\u2026",
       "_origin": "ast",
       "community": 19,
@@ -2076,10 +2076,10 @@
       "file_type": "rationale",
       "norm_label": "one row per frame: validity, view, joint angles (2-d pixel, 3-d world, legacy...",
       "source_file": "gait_video.py",
-      "source_location": "L299"
+      "source_location": "L296"
     },
     {
-      "id": "gait_video_rationale_393",
+      "id": "gait_video_rationale_390",
       "label": "Stride period (s) from the first strong autocorrelation peak, or None. The\u2026",
       "_origin": "ast",
       "community": 19,
@@ -2087,10 +2087,10 @@
       "file_type": "rationale",
       "norm_label": "stride period (s) from the first strong autocorrelation peak, or none. the...",
       "source_file": "gait_video.py",
-      "source_location": "L393"
+      "source_location": "L390"
     },
     {
-      "id": "gait_video_rationale_418",
+      "id": "gait_video_rationale_415",
       "label": "True where the signal still oscillates: rolling range over one period above\u2026",
       "_origin": "ast",
       "community": 19,
@@ -2098,10 +2098,10 @@
       "file_type": "rationale",
       "norm_label": "true where the signal still oscillates: rolling range over one period above...",
       "source_file": "gait_video.py",
-      "source_location": "L418"
+      "source_location": "L415"
     },
     {
-      "id": "gait_video_rationale_428",
+      "id": "gait_video_rationale_425",
       "label": "Heel strike from a raw maximum of the heel signal. A landing is a fast rise\u2026",
       "_origin": "ast",
       "community": 19,
@@ -2109,10 +2109,10 @@
       "file_type": "rationale",
       "norm_label": "heel strike from a raw maximum of the heel signal. a landing is a fast rise...",
       "source_file": "gait_video.py",
-      "source_location": "L428"
+      "source_location": "L425"
     },
     {
-      "id": "gait_video_rationale_448",
+      "id": "gait_video_rationale_445",
       "label": "Toe off from a raw minimum of the toe image-height signal (frontal video). The\u2026",
       "_origin": "ast",
       "community": 19,
@@ -2120,10 +2120,10 @@
       "file_type": "rationale",
       "norm_label": "toe off from a raw minimum of the toe image-height signal (frontal video). the...",
       "source_file": "gait_video.py",
-      "source_location": "L448"
+      "source_location": "L445"
     },
     {
-      "id": "gait_video_rationale_468",
+      "id": "gait_video_rationale_465",
       "label": "(heel signal with HS at maxima, toe signal with TO at minima) for one side.",
       "_origin": "ast",
       "community": 19,
@@ -2131,10 +2131,10 @@
       "file_type": "rationale",
       "norm_label": "(heel signal with hs at maxima, toe signal with to at minima) for one side.",
       "source_file": "gait_video.py",
-      "source_location": "L468"
+      "source_location": "L465"
     },
     {
-      "id": "gait_video_rationale_488",
+      "id": "gait_video_rationale_485",
       "label": "Heel strikes and toe offs per side, adaptive to the patient's cadence. methods\u2026",
       "_origin": "ast",
       "community": 19,
@@ -2142,10 +2142,10 @@
       "file_type": "rationale",
       "norm_label": "heel strikes and toe offs per side, adaptive to the patient's cadence. methods...",
       "source_file": "gait_video.py",
-      "source_location": "L488"
+      "source_location": "L485"
     },
     {
-      "id": "gait_video_rationale_532",
+      "id": "gait_video_rationale_529",
       "label": "One row per heel-strike-to-heel-strike stride, with validity checks. Accepted\u2026",
       "_origin": "ast",
       "community": 19,
@@ -2153,10 +2153,10 @@
       "file_type": "rationale",
       "norm_label": "one row per heel-strike-to-heel-strike stride, with validity checks. accepted...",
       "source_file": "gait_video.py",
-      "source_location": "L532"
+      "source_location": "L529"
     },
     {
-      "id": "gait_video_rationale_591",
+      "id": "gait_video_rationale_588",
       "label": "-> {side: (n_valid_strides, n_points, len(columns))}, each stride resampled to\u2026",
       "_origin": "ast",
       "community": 19,
@@ -2164,10 +2164,10 @@
       "file_type": "rationale",
       "norm_label": "-> {side: (n_valid_strides, n_points, len(columns))}, each stride resampled to...",
       "source_file": "gait_video.py",
-      "source_location": "L591"
+      "source_location": "L588"
     },
     {
-      "id": "gait_video_rationale_614",
+      "id": "gait_video_rationale_611",
       "label": "Mean Pearson r between each stride's knee curve and the ensemble mean.",
       "_origin": "ast",
       "community": 19,
@@ -2175,10 +2175,10 @@
       "file_type": "rationale",
       "norm_label": "mean pearson r between each stride's knee curve and the ensemble mean.",
       "source_file": "gait_video.py",
-      "source_location": "L614"
+      "source_location": "L611"
     },
     {
-      "id": "gait_video_rationale_623",
+      "id": "gait_video_rationale_620",
       "label": "Symmetry index (%): 0 = identical sides.",
       "_origin": "ast",
       "community": 19,
@@ -2186,10 +2186,10 @@
       "file_type": "rationale",
       "norm_label": "symmetry index (%): 0 = identical sides.",
       "source_file": "gait_video.py",
-      "source_location": "L623"
+      "source_location": "L620"
     },
     {
-      "id": "gait_video_rationale_734",
+      "id": "gait_video_rationale_731",
       "label": "Second decode pass: skeleton, angles, view and event flashes drawn on every\u2026",
       "_origin": "ast",
       "community": 19,
@@ -2197,10 +2197,10 @@
       "file_type": "rationale",
       "norm_label": "second decode pass: skeleton, angles, view and event flashes drawn on every...",
       "source_file": "gait_video.py",
-      "source_location": "L734"
+      "source_location": "L731"
     },
     {
-      "id": "gait_video_rationale_787",
+      "id": "gait_video_rationale_784",
       "label": "Track, compute, detect, summarise and write everything for one video. ->\u2026",
       "_origin": "ast",
       "community": 19,
@@ -2208,10 +2208,10 @@
       "file_type": "rationale",
       "norm_label": "track, compute, detect, summarise and write everything for one video. ->...",
       "source_file": "gait_video.py",
-      "source_location": "L787"
+      "source_location": "L784"
     },
     {
-      "id": "gait_video_rationale_94",
+      "id": "gait_video_rationale_91",
       "label": "Local path of a pose model, downloading it on first use (~10-30 MB).",
       "_origin": "ast",
       "community": 19,
@@ -2219,7 +2219,7 @@
       "file_type": "rationale",
       "norm_label": "local path of a pose model, downloading it on first use (~10-30 mb).",
       "source_file": "gait_video.py",
-      "source_location": "L94"
+      "source_location": "L91"
     },
     {
       "id": "coherence",
@@ -4072,7 +4072,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L799",
+      "source_location": "L796",
       "weight": 1.0
     },
     {
@@ -4084,7 +4084,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L804",
+      "source_location": "L801",
       "weight": 1.0
     },
     {
@@ -4096,7 +4096,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L807",
+      "source_location": "L804",
       "weight": 1.0
     },
     {
@@ -4108,7 +4108,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L809",
+      "source_location": "L806",
       "weight": 1.0
     },
     {
@@ -4120,7 +4120,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L810",
+      "source_location": "L807",
       "weight": 1.0
     },
     {
@@ -4132,7 +4132,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L811",
+      "source_location": "L808",
       "weight": 1.0
     },
     {
@@ -4144,7 +4144,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L814",
+      "source_location": "L811",
       "weight": 1.0
     },
     {
@@ -4156,7 +4156,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L815",
+      "source_location": "L812",
       "weight": 1.0
     },
     {
@@ -4168,7 +4168,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L816",
+      "source_location": "L813",
       "weight": 1.0
     },
     {
@@ -4180,7 +4180,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L834",
+      "source_location": "L831",
       "weight": 1.0
     },
     {
@@ -4192,7 +4192,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L836",
+      "source_location": "L833",
       "weight": 1.0
     },
     {
@@ -4204,7 +4204,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L839",
+      "source_location": "L836",
       "weight": 1.0
     },
     {
@@ -4216,7 +4216,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L483",
+      "source_location": "L480",
       "weight": 1.0
     },
     {
@@ -4228,7 +4228,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L310",
+      "source_location": "L307",
       "weight": 1.0
     },
     {
@@ -4240,7 +4240,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L341",
+      "source_location": "L338",
       "weight": 1.0
     },
     {
@@ -4252,7 +4252,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L507",
+      "source_location": "L504",
       "weight": 1.0
     },
     {
@@ -4264,7 +4264,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L508",
+      "source_location": "L505",
       "weight": 1.0
     },
     {
@@ -4276,7 +4276,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L510",
+      "source_location": "L507",
       "weight": 1.0
     },
     {
@@ -4288,7 +4288,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L516",
+      "source_location": "L513",
       "weight": 1.0
     },
     {
@@ -4300,7 +4300,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L517",
+      "source_location": "L514",
       "weight": 1.0
     },
     {
@@ -4312,7 +4312,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L519",
+      "source_location": "L516",
       "weight": 1.0
     },
     {
@@ -4324,7 +4324,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L522",
+      "source_location": "L519",
       "weight": 1.0
     },
     {
@@ -4336,7 +4336,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L398",
+      "source_location": "L395",
       "weight": 1.0
     },
     {
@@ -4348,7 +4348,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L434",
+      "source_location": "L431",
       "weight": 1.0
     },
     {
@@ -4360,7 +4360,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L231",
+      "source_location": "L228",
       "weight": 1.0
     },
     {
@@ -4372,7 +4372,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L454",
+      "source_location": "L451",
       "weight": 1.0
     },
     {
@@ -4384,7 +4384,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L688",
+      "source_location": "L685",
       "weight": 1.0
     },
     {
@@ -4396,7 +4396,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L265",
+      "source_location": "L262",
       "weight": 1.0
     },
     {
@@ -4408,7 +4408,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L571",
+      "source_location": "L568",
       "weight": 1.0
     },
     {
@@ -4420,7 +4420,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L635",
+      "source_location": "L632",
       "weight": 1.0
     },
     {
@@ -4432,7 +4432,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L658",
+      "source_location": "L655",
       "weight": 1.0
     },
     {
@@ -4444,7 +4444,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L659",
+      "source_location": "L656",
       "weight": 1.0
     },
     {
@@ -4456,7 +4456,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L662",
+      "source_location": "L659",
       "weight": 1.0
     },
     {
@@ -4468,7 +4468,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L165",
+      "source_location": "L162",
       "weight": 1.0
     },
     {
@@ -4480,7 +4480,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L190",
+      "source_location": "L187",
       "weight": 1.0
     },
     {
@@ -4492,7 +4492,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L204",
+      "source_location": "L201",
       "weight": 1.0
     },
     {
@@ -4504,7 +4504,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L420",
+      "source_location": "L417",
       "weight": 1.0
     },
     {
@@ -4588,7 +4588,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "restores_csv.py",
-      "source_location": "L243",
+      "source_location": "L241",
       "weight": 1.0
     },
     {
@@ -4600,7 +4600,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "restores_csv.py",
-      "source_location": "L254",
+      "source_location": "L252",
       "weight": 1.0
     },
     {
@@ -4648,7 +4648,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "restores_csv.py",
-      "source_location": "L330",
+      "source_location": "L328",
       "weight": 1.0
     },
     {
@@ -4816,7 +4816,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "run_walking_emg.py",
-      "source_location": "L142",
+      "source_location": "L141",
       "weight": 1.0
     },
     {
@@ -4888,7 +4888,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "run_walking_emg.py",
-      "source_location": "L194",
+      "source_location": "L187",
       "weight": 1.0
     },
     {
@@ -4900,7 +4900,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "run_walking_emg.py",
-      "source_location": "L197",
+      "source_location": "L190",
       "weight": 1.0
     },
     {
@@ -4912,7 +4912,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "run_walking_emg.py",
-      "source_location": "L205",
+      "source_location": "L198",
       "weight": 1.0
     },
     {
@@ -4924,7 +4924,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "run_walking_emg.py",
-      "source_location": "L209",
+      "source_location": "L202",
       "weight": 1.0
     },
     {
@@ -4936,7 +4936,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "run_walking_emg.py",
-      "source_location": "L213",
+      "source_location": "L206",
       "weight": 1.0
     },
     {
@@ -5656,7 +5656,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "gait_video.py",
-      "source_location": "L298",
+      "source_location": "L295",
       "weight": 1.0
     },
     {
@@ -5668,7 +5668,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "gait_video.py",
-      "source_location": "L207",
+      "source_location": "L204",
       "weight": 1.0
     },
     {
@@ -5680,7 +5680,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "gait_video.py",
-      "source_location": "L629",
+      "source_location": "L626",
       "weight": 1.0
     },
     {
@@ -5692,7 +5692,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "gait_video.py",
-      "source_location": "L733",
+      "source_location": "L730",
       "weight": 1.0
     },
     {
@@ -5704,7 +5704,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "restores_csv.py",
-      "source_location": "L284",
+      "source_location": "L282",
       "weight": 1.0
     },
     {
@@ -5716,7 +5716,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "restores_csv.py",
-      "source_location": "L284",
+      "source_location": "L282",
       "weight": 1.0
     },
     {
@@ -7168,7 +7168,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L109",
+      "source_location": "L106",
       "weight": 1.0
     },
     {
@@ -7179,7 +7179,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L130",
+      "source_location": "L127",
       "weight": 1.0
     },
     {
@@ -7190,7 +7190,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L146",
+      "source_location": "L143",
       "weight": 1.0
     },
     {
@@ -7201,7 +7201,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L207",
+      "source_location": "L204",
       "weight": 1.0
     },
     {
@@ -7212,7 +7212,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L221",
+      "source_location": "L218",
       "weight": 1.0
     },
     {
@@ -7223,7 +7223,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L238",
+      "source_location": "L235",
       "weight": 1.0
     },
     {
@@ -7234,7 +7234,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L251",
+      "source_location": "L248",
       "weight": 1.0
     },
     {
@@ -7245,7 +7245,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L272",
+      "source_location": "L269",
       "weight": 1.0
     },
     {
@@ -7256,7 +7256,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L282",
+      "source_location": "L279",
       "weight": 1.0
     },
     {
@@ -7267,7 +7267,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L298",
+      "source_location": "L295",
       "weight": 1.0
     },
     {
@@ -7278,7 +7278,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L373",
+      "source_location": "L370",
       "weight": 1.0
     },
     {
@@ -7289,7 +7289,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L383",
+      "source_location": "L380",
       "weight": 1.0
     },
     {
@@ -7300,7 +7300,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L392",
+      "source_location": "L389",
       "weight": 1.0
     },
     {
@@ -7311,7 +7311,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L417",
+      "source_location": "L414",
       "weight": 1.0
     },
     {
@@ -7322,7 +7322,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L427",
+      "source_location": "L424",
       "weight": 1.0
     },
     {
@@ -7333,7 +7333,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L447",
+      "source_location": "L444",
       "weight": 1.0
     },
     {
@@ -7344,7 +7344,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L467",
+      "source_location": "L464",
       "weight": 1.0
     },
     {
@@ -7355,7 +7355,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L480",
+      "source_location": "L477",
       "weight": 1.0
     },
     {
@@ -7366,7 +7366,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L487",
+      "source_location": "L484",
       "weight": 1.0
     },
     {
@@ -7377,7 +7377,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L531",
+      "source_location": "L528",
       "weight": 1.0
     },
     {
@@ -7388,7 +7388,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L586",
+      "source_location": "L583",
       "weight": 1.0
     },
     {
@@ -7399,7 +7399,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L590",
+      "source_location": "L587",
       "weight": 1.0
     },
     {
@@ -7410,7 +7410,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L613",
+      "source_location": "L610",
       "weight": 1.0
     },
     {
@@ -7421,7 +7421,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L622",
+      "source_location": "L619",
       "weight": 1.0
     },
     {
@@ -7432,7 +7432,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L629",
+      "source_location": "L626",
       "weight": 1.0
     },
     {
@@ -7443,7 +7443,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L673",
+      "source_location": "L670",
       "weight": 1.0
     },
     {
@@ -7454,7 +7454,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L708",
+      "source_location": "L705",
       "weight": 1.0
     },
     {
@@ -7465,7 +7465,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L733",
+      "source_location": "L730",
       "weight": 1.0
     },
     {
@@ -7476,7 +7476,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L785",
+      "source_location": "L782",
       "weight": 1.0
     },
     {
@@ -7487,7 +7487,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L93",
+      "source_location": "L90",
       "weight": 1.0
     },
     {
@@ -7773,7 +7773,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "restores_csv.py",
-      "source_location": "L221",
+      "source_location": "L220",
       "weight": 1.0
     },
     {
@@ -7784,7 +7784,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "restores_csv.py",
-      "source_location": "L246",
+      "source_location": "L244",
       "weight": 1.0
     },
     {
@@ -7795,7 +7795,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "restores_csv.py",
-      "source_location": "L271",
+      "source_location": "L269",
       "weight": 1.0
     },
     {
@@ -7806,7 +7806,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "restores_csv.py",
-      "source_location": "L284",
+      "source_location": "L282",
       "weight": 1.0
     },
     {
@@ -7817,7 +7817,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "restores_csv.py",
-      "source_location": "L302",
+      "source_location": "L300",
       "weight": 1.0
     },
     {
@@ -7828,7 +7828,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "restores_csv.py",
-      "source_location": "L315",
+      "source_location": "L313",
       "weight": 1.0
     },
     {
@@ -7905,7 +7905,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "run_walking_emg.py",
-      "source_location": "L147",
+      "source_location": "L146",
       "weight": 1.0
     },
     {
@@ -7916,7 +7916,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "run_walking_emg.py",
-      "source_location": "L175",
+      "source_location": "L174",
       "weight": 1.0
     },
     {
@@ -8037,7 +8037,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L122",
+      "source_location": "L119",
       "weight": 1.0
     },
     {
@@ -8048,7 +8048,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L126",
+      "source_location": "L123",
       "weight": 1.0
     },
     {
@@ -8092,7 +8092,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "restores_csv.py",
-      "source_location": "L214",
+      "source_location": "L213",
       "weight": 1.0
     },
     {
@@ -8426,25 +8426,25 @@
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_131",
+      "source": "gait_video_rationale_128",
       "target": "gait_video_pick_pose",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L131",
+      "source_location": "L128",
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_148",
+      "source": "gait_video_rationale_145",
       "target": "gait_video_track_video",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L148",
+      "source_location": "L145",
       "weight": 1.0
     },
     {
@@ -8459,223 +8459,223 @@
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_208",
+      "source": "gait_video_rationale_205",
       "target": "gait_video_save_track",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L208",
+      "source_location": "L205",
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_222",
+      "source": "gait_video_rationale_219",
       "target": "gait_video_load_track",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L222",
+      "source_location": "L219",
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_239",
+      "source": "gait_video_rationale_236",
       "target": "gait_video_long_gaps",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L239",
+      "source_location": "L236",
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_252",
+      "source": "gait_video_rationale_249",
       "target": "gait_video_smooth_series",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L252",
+      "source_location": "L249",
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_273",
+      "source": "gait_video_rationale_270",
       "target": "gait_video_joint_angle",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L273",
+      "source_location": "L270",
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_283",
+      "source": "gait_video_rationale_280",
       "target": "gait_video_peaks",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L283",
+      "source_location": "L280",
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_299",
+      "source": "gait_video_rationale_296",
       "target": "gait_video_compute_kinematics",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L299",
+      "source_location": "L296",
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_393",
+      "source": "gait_video_rationale_390",
       "target": "gait_video_dominant_period",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L393",
+      "source_location": "L390",
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_418",
+      "source": "gait_video_rationale_415",
       "target": "gait_video_walking_mask",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L418",
+      "source_location": "L415",
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_428",
+      "source": "gait_video_rationale_425",
       "target": "gait_video_end_of_rise",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L428",
+      "source_location": "L425",
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_448",
+      "source": "gait_video_rationale_445",
       "target": "gait_video_onset_of_fall",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L448",
+      "source_location": "L445",
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_468",
+      "source": "gait_video_rationale_465",
       "target": "gait_video_event_signals",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L468",
+      "source_location": "L465",
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_488",
+      "source": "gait_video_rationale_485",
       "target": "gait_video_detect_events",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L488",
+      "source_location": "L485",
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_532",
+      "source": "gait_video_rationale_529",
       "target": "gait_video_stride_table",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L532",
+      "source_location": "L529",
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_591",
+      "source": "gait_video_rationale_588",
       "target": "gait_video_normalize_cycles",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L591",
+      "source_location": "L588",
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_614",
+      "source": "gait_video_rationale_611",
       "target": "gait_video_consistency",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L614",
+      "source_location": "L611",
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_623",
+      "source": "gait_video_rationale_620",
       "target": "gait_video_si",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L623",
+      "source_location": "L620",
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_734",
+      "source": "gait_video_rationale_731",
       "target": "gait_video_write_annotated",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L734",
+      "source_location": "L731",
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_787",
+      "source": "gait_video_rationale_784",
       "target": "gait_video_analyze_video",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L787",
+      "source_location": "L784",
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_94",
+      "source": "gait_video_rationale_91",
       "target": "gait_video_model_path",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L94",
+      "source_location": "L91",
       "weight": 1.0
     },
     {
@@ -8778,47 +8778,47 @@
       "weight": 1.0
     },
     {
-      "source": "restores_csv_rationale_247",
+      "source": "restores_csv_rationale_245",
       "target": "restores_csv_list_session",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "restores_csv.py",
-      "source_location": "L247",
+      "source_location": "L245",
       "weight": 1.0
     },
     {
-      "source": "restores_csv_rationale_272",
+      "source": "restores_csv_rationale_270",
       "target": "restores_csv_baseline_for",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "restores_csv.py",
-      "source_location": "L272",
+      "source_location": "L270",
       "weight": 1.0
     },
     {
-      "source": "restores_csv_rationale_285",
+      "source": "restores_csv_rationale_283",
       "target": "restores_csv_agonists",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "restores_csv.py",
-      "source_location": "L285",
+      "source_location": "L283",
       "weight": 1.0
     },
     {
-      "source": "restores_csv_rationale_316",
+      "source": "restores_csv_rationale_314",
       "target": "restores_csv_sessions",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "restores_csv.py",
-      "source_location": "L316",
+      "source_location": "L314",
       "weight": 1.0
     },
     {

@@ -10,3 +10,9 @@ restores_config.py
 
 # QC run output - regenerable, tied to a point-in-time data snapshot.
 outputs/
+
+# MediaPipe pose models (downloaded on first use by gait_video.model_path) and
+# patient video: never in the repository.
+models/
+*.mp4
+*.mov

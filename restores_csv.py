@@ -204,12 +204,18 @@ class SessionFile:
     is_baseline: bool
     stim_on: bool | None          # None = unknown / pre-op
     side: str | None              # 'L', 'R' or None
-    movement: str                 # e.g. 'hip flex', 'elbow ext', 'walking with harness 16 full gaits'
+    movement: str                 # e.g. 'hip flex', 'elbow ext', 'walking'
     redo: bool
+    gaits: int | None = None      # walking files: the therapist's count from the name
+    harness: bool = False         # walking files: 'with harness' in the name
+    brace: bool = False           # walking files: 'with leg brace' in the name
 
     @property
     def name(self):
         return os.path.basename(self.path)
+
+
+_GAITS = re.compile(r"(\d+)\s*full\s*g[ai]{2}ts?", re.I)      # 'gaits', 'gait', and the 'giats' typo
 
 
 def _classify(path):
@@ -226,7 +232,15 @@ def _classify(path):
     movement = _SIDE.sub("", low)
     movement = re.sub(r"stim\s*(on|off)|baseline|redo|\(.*?\)|@.*$", "", movement)
     movement = re.sub(r"\s+", " ", movement).strip(" -.")
-    return SessionFile(path, number, is_base, stim, side, movement, "redo" in low)
+    gaits, harness, brace = None, False, False
+    if "walk" in low:
+        # 'Walking 22 full gaits', 'walking with harness, 16 full gaits', '..., 23 steps, 12 full gaits',
+        # 'walking with leg brace 16 full gaits', 'Attempting 1st walk'
+        g = _GAITS.search(low)
+        gaits = int(g.group(1)) if g else None
+        harness, brace = "harness" in low, "brace" in low
+        movement, side = "walking", None
+    return SessionFile(path, number, is_base, stim, side, movement, "redo" in low, gaits, harness, brace)
 
 
 def list_session(folder):
@@ -264,10 +278,15 @@ def baseline_for(files, stim_on):
     return None
 
 
+WALKING_TRIGGERS = [3, 11]      # Lt / Rt Tibialis Anterior: one swing-phase burst per stride
+
+
 def agonists(rec: Recording, sf: SessionFile):
     """Channel indices for this exercise's agonists, or [] if unknown montage."""
     if [c or "" for c in rec.channels] != LOWER_LIMB:
         return []
+    if sf.movement == "walking":
+        return list(WALKING_TRIGGERS)
     key = next((k for k in LOWER_LIMB_AGONISTS if k in sf.movement), None)
     if key is None or sf.side is None:
         return []

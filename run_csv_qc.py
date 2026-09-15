@@ -101,6 +101,7 @@ def qc_session(patient, date, phase, folder, max_seconds):
         row = {
             "patient": patient, "date": date, "phase": phase, "file": sf.name, "number": sf.number,
             "stim_on": sf.stim_on, "redo": sf.redo, "side": sf.side, "movement": sf.movement,
+            "gaits": sf.gaits, "harness": sf.harness, "brace": sf.brace,
             "montage": "lower_limb" if lower else "other", "n_ch": len(rec.channels),
             "duration_s": round(rec.duration_s, 1),
             "LFF": rec.lff, "HFF": rec.hff, "Notch": rec.notch,

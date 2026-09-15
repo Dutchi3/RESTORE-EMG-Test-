@@ -1,0 +1,11 @@
+# Verified together on Python 3.14.7 (venv/), 2026-09-15.
+#   python -m pip install -r requirements.txt
+numpy>=2.5
+scipy>=1.18
+pandas>=3.0
+matplotlib>=3.11
+scikit-learn>=1.9
+# walking videos (gait_video.py): pose landmarks + video I/O.  mediapipe pulls
+# in opencv-contrib-python; mediapipe >= 1.0 has no mp.solutions API.
+mediapipe>=1.0
+opencv-contrib-python>=4.10

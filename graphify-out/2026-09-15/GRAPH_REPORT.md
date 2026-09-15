@@ -1,7 +1,7 @@
 # Graph Report - Thaddeus RESTORES EMG Test  (2026-09-15)
 
 ## Corpus Check
-- 30 files · ~50,901 words
+- 30 files · ~50,807 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
