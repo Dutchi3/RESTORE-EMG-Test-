@@ -203,7 +203,7 @@ for pat in ['P2/','P1/', 'P3/']:
                             filtered_signals_off['W' + week + '_Exe' + file.split('.')[0]] = np.real(segmented_signal)
                             
                             
-                            sd_baseline = 1000
+                            sd_baseline = np.inf # finding 10: literal 1000 left mean_baseline at 0, then divided by it
                             mean_baseline = 0
                             for i in range(0,len(filtered_signal)-30000,20000): #3s windows with 1s overlap
                                 window = filtered_signal[i:i+30000]
@@ -214,7 +214,7 @@ for pat in ['P2/','P1/', 'P3/']:
                                     mean_baseline = mean
                             
                             normalized_signal = segmented_signal/mean_baseline
-                            power = 10*math.log10(np.sqrt(np.nanmean(normalized_signal**2)))
+                            power = 20*math.log10(np.sqrt(np.nanmean(normalized_signal**2))) # finding 07: RMS is an amplitude, so dB uses 20 not 10
                             #print(mean_baseline, 10*math.log10(np.sqrt(np.nanmean(envelope**2))))
                             
                             # Calculate RMS and add to dictionary
@@ -251,7 +251,7 @@ for pat in ['P2/','P1/', 'P3/']:
                             filtered_signals_on['W' + week + '_Exe' + file.split('.')[0]] = np.real(segmented_signal)
                             
                             
-                            sd_baseline = 1000
+                            sd_baseline = np.inf # finding 10: literal 1000 left mean_baseline at 0, then divided by it
                             mean_baseline = 0
                             for i in range(0,len(filtered_signal)-30000,20000): #3s windows with 1s overlap
                                 window = filtered_signal[i:i+30000]
@@ -262,7 +262,7 @@ for pat in ['P2/','P1/', 'P3/']:
                                     mean_baseline = mean
                             
                             normalized_signal = segmented_signal/mean_baseline
-                            power = 10*math.log10(np.sqrt(np.nanmean(normalized_signal**2)))
+                            power = 20*math.log10(np.sqrt(np.nanmean(normalized_signal**2))) # finding 07: RMS is an amplitude, so dB uses 20 not 10
                             
                             # Calculate RMS and add to dictionary
                             RMS_on_dictionary['W' + week + '_Exe' + file.split('.')[0]] = power
@@ -341,7 +341,7 @@ for pat in ['P2/','P1/', 'P3/']:
                                 # Add filtered signal to dictionary
                                 filtered_signals_off['W' + week + '_Exe' + file.split('.')[0]] = np.real(segmented_signal)
                                 
-                                sd_baseline = 1000
+                                sd_baseline = np.inf # finding 10: literal 1000 left mean_baseline at 0, then divided by it
                                 mean_baseline = 0
                                 for i in range(0,len(filtered_signal)-30000,20000): #3s windows with 1s overlap
                                     window = filtered_signal[i:i+30000]
@@ -352,7 +352,7 @@ for pat in ['P2/','P1/', 'P3/']:
                                         mean_baseline = mean
                                 
                                 normalized_signal = segmented_signal/mean_baseline
-                                power = 10*math.log10(np.sqrt(np.nanmean(normalized_signal**2)))
+                                power = 20*math.log10(np.sqrt(np.nanmean(normalized_signal**2))) # finding 07: RMS is an amplitude, so dB uses 20 not 10
                                 
                                 # Calculate RMS and add to dictionary
                                 RMS_off_dictionary['W' + week + '_Exe' + file.split('.')[0]] = power
@@ -388,7 +388,7 @@ for pat in ['P2/','P1/', 'P3/']:
                                 # Add filtered signal to dictionary
                                 filtered_signals_on['W' + week + '_Exe' + file.split('.')[0]] = np.real(segmented_signal)
                                 
-                                sd_baseline = 1000
+                                sd_baseline = np.inf # finding 10: literal 1000 left mean_baseline at 0, then divided by it
                                 mean_baseline = 0
                                 for i in range(0,len(filtered_signal)-30000,20000): #3s windows with 1s overlap
                                     window = filtered_signal[i:i+30000]
@@ -399,7 +399,7 @@ for pat in ['P2/','P1/', 'P3/']:
                                         mean_baseline = mean
                                 
                                 normalized_signal = segmented_signal/mean_baseline
-                                power = 10*math.log10(np.sqrt(np.nanmean(normalized_signal**2)))
+                                power = 20*math.log10(np.sqrt(np.nanmean(normalized_signal**2))) # finding 07: RMS is an amplitude, so dB uses 20 not 10
                                 
                                 
                                 
@@ -482,7 +482,7 @@ for pat in ['P2/','P1/', 'P3/']:
                                 plt.plot(envelope)
                                 filtered_signals_off['W' + week + '_Exe' + files[i].split('.')[0]] = envelope
                                 
-                                sd_baseline = 1000
+                                sd_baseline = np.inf # finding 10: literal 1000 left mean_baseline at 0, then divided by it
                                 mean_baseline = 0
                                 for j in range(0,len(filtered_signal)-30000,20000): #3s windows with 1s overlap
                                     window = filtered_signal[j:j+30000]
@@ -493,7 +493,7 @@ for pat in ['P2/','P1/', 'P3/']:
                                         mean_baseline = mean
                                 
                                 normalized_signal = segmented_signal/mean_baseline
-                                power = 10*math.log10(np.sqrt(np.nanmean(normalized_signal**2)))
+                                power = 20*math.log10(np.sqrt(np.nanmean(normalized_signal**2))) # finding 07: RMS is an amplitude, so dB uses 20 not 10
                                 
                                 # Calculate RMS and add to dictionary
                                 RMS_off_dictionary['W' + week + '_Exe' + files[i].split('.')[0]] = power
@@ -532,7 +532,7 @@ for pat in ['P2/','P1/', 'P3/']:
                                 #print(loadpath)
                                 # Find baseline
                                 
-                                sd_baseline = 1000
+                                sd_baseline = np.inf # finding 10: literal 1000 left mean_baseline at 0, then divided by it
                                 mean_baseline = 0
                                 for j in range(0,len(filtered_signal)-30000,20000): #3s windows with 1s overlap
                                     window = filtered_signal[j:j+30000]
@@ -543,7 +543,7 @@ for pat in ['P2/','P1/', 'P3/']:
                                         mean_baseline = mean
                                 
                                 normalized_signal = segmented_signal/mean_baseline
-                                power = 10*math.log10(np.sqrt(np.nanmean(normalized_signal**2)))
+                                power = 20*math.log10(np.sqrt(np.nanmean(normalized_signal**2))) # finding 07: RMS is an amplitude, so dB uses 20 not 10
                                 
                                 # Calculate RMS and add to dictionary
                                 RMS_on_dictionary['W' + week + '_Exe' + files[i].split('.')[0]] = power
@@ -626,7 +626,7 @@ for pat in ['P2/','P1/', 'P3/']:
                             plt.plot(envelope)
                             filtered_signals_off['W' + week + '_Exe' + files[i].split('.')[0]] = envelope
                             
-                            sd_baseline = 1000
+                            sd_baseline = np.inf # finding 10: literal 1000 left mean_baseline at 0, then divided by it
                             mean_baseline = 0
                             for j in range(0,len(filtered_signal)-30000,20000): #3s windows with 1s overlap
                                 window = filtered_signal[j:j+30000]
@@ -637,7 +637,7 @@ for pat in ['P2/','P1/', 'P3/']:
                                     mean_baseline = mean
                             
                             normalized_signal = segmented_signal/mean_baseline
-                            power = 10*math.log10(np.sqrt(np.nanmean(normalized_signal**2)))
+                            power = 20*math.log10(np.sqrt(np.nanmean(normalized_signal**2))) # finding 07: RMS is an amplitude, so dB uses 20 not 10
                             
                             
                             
@@ -675,7 +675,7 @@ for pat in ['P2/','P1/', 'P3/']:
                             plt.pause(0.01)
                             filtered_signals_on['W' + week + '_Exe' + files[i].split('.')[0]] = envelope
                             
-                            sd_baseline = 1000
+                            sd_baseline = np.inf # finding 10: literal 1000 left mean_baseline at 0, then divided by it
                             mean_baseline = 0
                             for j in range(0,len(filtered_signal)-30000,20000): #3s windows with 1s overlap
                                 window = filtered_signal[j:j+30000]
@@ -686,7 +686,7 @@ for pat in ['P2/','P1/', 'P3/']:
                                     mean_baseline = mean
                             
                             normalized_signal = segmented_signal/mean_baseline
-                            power = 10*math.log10(np.sqrt(np.nanmean(normalized_signal**2)))
+                            power = 20*math.log10(np.sqrt(np.nanmean(normalized_signal**2))) # finding 07: RMS is an amplitude, so dB uses 20 not 10
                             
                             
                             

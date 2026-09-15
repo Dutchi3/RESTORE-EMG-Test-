@@ -1,0 +1,188 @@
+{
+  ".agents/skills/scientific-pkg-neurokit2/SKILL.json": {
+    "mtime": 1788919105.1477337,
+    "seen": 1789007153.0461767,
+    "ast_hash": "1a6a8952a74df3423b1d06a204555622",
+    "semantic_hash": "1a6a8952a74df3423b1d06a204555622"
+  },
+  ".claude/settings.json": {
+    "mtime": 1789006948.3097558,
+    "seen": 1789007153.046183,
+    "ast_hash": "8d0b8cd2cddeeba6ace4d2fd1e77577b",
+    "semantic_hash": "8d0b8cd2cddeeba6ace4d2fd1e77577b"
+  },
+  "Clinical Scores code.py": {
+    "mtime": 1769158382.241183,
+    "seen": 1789007153.046186,
+    "ast_hash": "b89c537086e22db99605eee0ce280230",
+    "semantic_hash": "b89c537086e22db99605eee0ce280230"
+  },
+  "coherence.py": {
+    "mtime": 1788939402.7419727,
+    "seen": 1789007153.0461879,
+    "ast_hash": "90fd92d5530db9412045a979def92432",
+    "semantic_hash": "90fd92d5530db9412045a979def92432"
+  },
+  "emg_pipeline.py": {
+    "mtime": 1789035236.9009898,
+    "seen": 1789035282.207772,
+    "ast_hash": "b73bd3cdde4b8c663793891e7336d3ad",
+    "semantic_hash": ""
+  },
+  "normalize to baseline.py": {
+    "mtime": 1788939489.7127059,
+    "seen": 1789007153.0461917,
+    "ast_hash": "a052ee67d80377603e54cff71abba3a3",
+    "semantic_hash": "a052ee67d80377603e54cff71abba3a3"
+  },
+  "normalize to peak.py": {
+    "mtime": 1778480885.2932918,
+    "seen": 1789007153.0461934,
+    "ast_hash": "73bc9b78e6a24d4732d079da40546be6",
+    "semantic_hash": "73bc9b78e6a24d4732d079da40546be6"
+  },
+  "on vs off.py": {
+    "mtime": 1777442384.04242,
+    "seen": 1789007153.0461953,
+    "ast_hash": "44aaccf3f25a67adc83309e7802c3de9",
+    "semantic_hash": "44aaccf3f25a67adc83309e7802c3de9"
+  },
+  "plot all exercises and segment.py": {
+    "mtime": 1788854561.864506,
+    "seen": 1789007153.046197,
+    "ast_hash": "547d38d05c0df5d1dcc65d369aedddb3",
+    "semantic_hash": "547d38d05c0df5d1dcc65d369aedddb3"
+  },
+  "preprocessing_functions.py": {
+    "mtime": 1788939394.4744923,
+    "seen": 1789007153.0461986,
+    "ast_hash": "8c68ee156cd7c3281e38e3c0924d3d71",
+    "semantic_hash": "8c68ee156cd7c3281e38e3c0924d3d71"
+  },
+  "synergies stim off vs on.py": {
+    "mtime": 1778480856.3540068,
+    "seen": 1789007153.0462003,
+    "ast_hash": "1765af92412bd6baff0bb5b2c9c9978c",
+    "semantic_hash": "1765af92412bd6baff0bb5b2c9c9978c"
+  },
+  "restores_csv.py": {
+    "mtime": 1789450332.4832695,
+    "seen": 1789451387.9695902,
+    "ast_hash": "b732627c25821a64724a819cb395824c",
+    "semantic_hash": ""
+  },
+  "run_csv_qc.py": {
+    "mtime": 1789451365.910078,
+    "seen": 1789451387.9695926,
+    "ast_hash": "09ea4fbcb5bc90d19ce858e9e9b866a2",
+    "semantic_hash": ""
+  },
+  ".agents/skills/scientific-pkg-neurokit2/SKILL.md": {
+    "mtime": 1788919105.161502,
+    "seen": 1789030194.1605568,
+    "ast_hash": "8e388caea6f3e9004ec7626dc71ffb9e",
+    "semantic_hash": ""
+  },
+  ".claude/CLAUDE.md": {
+    "mtime": 1789006948.2684023,
+    "seen": 1789030194.160559,
+    "ast_hash": "c232166e6492ba1ed955030b16979b05",
+    "semantic_hash": ""
+  },
+  ".claude/skills/graphify/SKILL.md": {
+    "mtime": 1789006948.2457335,
+    "seen": 1789030194.1605606,
+    "ast_hash": "1656a8a8e4a05bbe69f32cd15de81e87",
+    "semantic_hash": ""
+  },
+  ".claude/skills/graphify/references/add-watch.md": {
+    "mtime": 1789006906.315884,
+    "seen": 1789030194.1605623,
+    "ast_hash": "d59d027fe449f06aa03905a01184e779",
+    "semantic_hash": ""
+  },
+  ".claude/skills/graphify/references/exports.md": {
+    "mtime": 1789006906.3178878,
+    "seen": 1789030194.1605642,
+    "ast_hash": "9da2a2152e60a22f07f05fed5158f287",
+    "semantic_hash": ""
+  },
+  ".claude/skills/graphify/references/extraction-spec.md": {
+    "mtime": 1789006906.3198917,
+    "seen": 1789030194.160566,
+    "ast_hash": "42fef56a01698118f7fd722acdadea34",
+    "semantic_hash": ""
+  },
+  ".claude/skills/graphify/references/github-and-merge.md": {
+    "mtime": 1789006906.3218956,
+    "seen": 1789030194.1605678,
+    "ast_hash": "cde13df085e4c492aeb7ba298a996d0d",
+    "semantic_hash": ""
+  },
+  ".claude/skills/graphify/references/hooks.md": {
+    "mtime": 1789006906.3238993,
+    "seen": 1789030194.1605697,
+    "ast_hash": "3f545db6ce646650bb9de588f5512a27",
+    "semantic_hash": ""
+  },
+  ".claude/skills/graphify/references/query.md": {
+    "mtime": 1789006906.3259034,
+    "seen": 1789030194.1605713,
+    "ast_hash": "3c46f8ad006874260614ed8657d02307",
+    "semantic_hash": ""
+  },
+  ".claude/skills/graphify/references/transcribe.md": {
+    "mtime": 1789006906.3286166,
+    "seen": 1789030194.1605737,
+    "ast_hash": "67b6a5fa6c0974e18f60db9f8932fbd8",
+    "semantic_hash": ""
+  },
+  ".claude/skills/graphify/references/update.md": {
+    "mtime": 1789006906.3318973,
+    "seen": 1789030194.1605754,
+    "ast_hash": "9378bd03d56baaf78bd738ab3848f142",
+    "semantic_hash": ""
+  },
+  ".claude/skills/neurokit2/SKILL.md": {
+    "mtime": 1788919615.043681,
+    "seen": 1789030194.1605773,
+    "ast_hash": "8e388caea6f3e9004ec7626dc71ffb9e",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1789006948.304312,
+    "seen": 1789030194.1605794,
+    "ast_hash": "8a6643a420fdad6bfb583523bc6cef16",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1789450833.443516,
+    "seen": 1789451387.9696355,
+    "ast_hash": "787ba656d4472f3b3917b99e63aa15d7",
+    "semantic_hash": ""
+  },
+  "gait_video.py": {
+    "mtime": 1789450962.383021,
+    "seen": 1789451387.969573,
+    "ast_hash": "89f276f2d8ed3998172fc80e1e621a4b",
+    "semantic_hash": ""
+  },
+  "run_gait_video.py": {
+    "mtime": 1789450661.9749556,
+    "seen": 1789451387.9695947,
+    "ast_hash": "6cb93df5a13a83e6e9eef8424f6ceb16",
+    "semantic_hash": ""
+  },
+  "run_walking_emg.py": {
+    "mtime": 1789451317.8897474,
+    "seen": 1789451387.9695969,
+    "ast_hash": "259ffacaeb086f847b416762bb4ca5df",
+    "semantic_hash": ""
+  },
+  "requirements.txt": {
+    "mtime": 1789450444.6998284,
+    "seen": 1789451387.9696374,
+    "ast_hash": "27e09cf0ecccb17eee665265bc69fe80",
+    "semantic_hash": ""
+  }
+}

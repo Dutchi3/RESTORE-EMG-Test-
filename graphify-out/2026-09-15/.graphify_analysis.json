@@ -1,0 +1,211 @@
+{
+  "communities": {
+    "0": [
+      "emg_pipeline",
+      "emg_pipeline_build_filter",
+      "emg_pipeline_clean",
+      "emg_pipeline_notch_sections",
+      "emg_pipeline_rationale_170",
+      "emg_pipeline_rationale_185",
+      "emg_pipeline_rationale_2",
+      "emg_pipeline_rationale_208",
+      "emg_pipeline_resolve_root",
+      "emg_pipeline_robust_peak"
+    ],
+    "1": [
+      "emg_pipeline_detect_activation",
+      "emg_pipeline_gain_scale",
+      "emg_pipeline_process_trial",
+      "emg_pipeline_rationale_217",
+      "emg_pipeline_rationale_331",
+      "emg_pipeline_rationale_379",
+      "emg_pipeline_trial",
+      "emg_pipeline_trial_active_fraction",
+      "emg_pipeline_trial_rms"
+    ],
+    "2": [
+      "preprocessing_functions_lowpass",
+      "synergies_stim_off_vs_on",
+      "synergies_stim_off_vs_on_calculate_vaf",
+      "synergies_stim_off_vs_on_rationale_2",
+      "synergies_stim_off_vs_on_rms",
+      "synergies_stim_off_vs_on_rms_envelope",
+      "synergies_stim_off_vs_on_z_norm"
+    ],
+    "3": [
+      "emg_pipeline_check_duplicate_recordings",
+      "emg_pipeline_load_concatenated",
+      "emg_pipeline_load_recording",
+      "emg_pipeline_rationale_282",
+      "emg_pipeline_rationale_291",
+      "emg_pipeline_rationale_445"
+    ],
+    "4": [
+      "emg_pipeline_find_baseline",
+      "emg_pipeline_find_trials",
+      "emg_pipeline_parse_name",
+      "emg_pipeline_rationale_254",
+      "emg_pipeline_rationale_262",
+      "emg_pipeline_rationale_301"
+    ],
+    "5": [
+      "coherence",
+      "coherence_rationale_2",
+      "coherence_rms",
+      "coherence_rms_envelope",
+      "preprocessing_functions_create_sliding_window_frequencey_filter"
+    ],
+    "6": [
+      "normalize_to_baseline",
+      "normalize_to_baseline_rationale_2",
+      "normalize_to_baseline_rms",
+      "normalize_to_baseline_rms_envelope",
+      "preprocessing_functions_get_gains"
+    ],
+    "7": [
+      "normalize_to_peak",
+      "normalize_to_peak_rationale_2",
+      "normalize_to_peak_rms",
+      "normalize_to_peak_rms_envelope",
+      "preprocessing_functions_sliding_window_frequencey_filter"
+    ],
+    "8": [
+      "on_vs_off",
+      "on_vs_off_rationale_2",
+      "on_vs_off_rms",
+      "on_vs_off_rms_envelope",
+      "preprocessing_functions_segmentation"
+    ],
+    "9": [
+      "emg_pipeline_artifact_prominence",
+      "emg_pipeline_qc_row",
+      "emg_pipeline_rationale_417",
+      "emg_pipeline_rationale_428"
+    ],
+    "10": [
+      "plot_all_exercises_and_segment",
+      "plot_all_exercises_and_segment_rationale_2",
+      "preprocessing_functions_apply_filters",
+      "preprocessing_functions_filter_baseline"
+    ],
+    "11": [
+      "emg_pipeline_patient",
+      "emg_pipeline_patient_exercise_number",
+      "emg_pipeline_rationale_112"
+    ],
+    "12": [
+      "preprocessing_functions",
+      "preprocessing_functions_rationale_2",
+      "preprocessing_functions_self_baseline_sliding_window_frequencey_filter"
+    ],
+    "13": [
+      "clinical_scores_code",
+      "clinical_scores_code_rationale_2"
+    ],
+    "14": [
+      "emg_pipeline_detect_stim_frequency",
+      "emg_pipeline_rationale_143"
+    ],
+    "15": [
+      "emg_pipeline_rationale_197",
+      "emg_pipeline_rms_envelope"
+    ],
+    "16": [
+      "plot_all_exercises_and_segment_rms",
+      "plot_all_exercises_and_segment_rms_envelope"
+    ],
+    "17": [
+      "preprocessing_functions_apply_filters_p3",
+      "preprocessing_functions_rationale_493"
+    ]
+  },
+  "cohesion": {
+    "0": 0.24444444444444444,
+    "1": 0.2222222222222222,
+    "2": 0.3333333333333333,
+    "3": 0.3333333333333333,
+    "4": 0.3333333333333333,
+    "5": 0.5,
+    "6": 0.5,
+    "7": 0.5,
+    "8": 0.5,
+    "9": 0.5,
+    "10": 0.6666666666666666,
+    "11": 0.6666666666666666,
+    "12": 0.6666666666666666,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0
+  },
+  "gods": [
+    {
+      "id": "emg_pipeline_process_trial",
+      "label": "process_trial()",
+      "degree": 10
+    },
+    {
+      "id": "preprocessing_functions_apply_filters_p3",
+      "label": "apply_filters_P3()",
+      "degree": 9
+    },
+    {
+      "id": "preprocessing_functions_filter_baseline",
+      "label": "filter_baseline()",
+      "degree": 8
+    },
+    {
+      "id": "preprocessing_functions_apply_filters",
+      "label": "apply_filters()",
+      "degree": 8
+    },
+    {
+      "id": "preprocessing_functions_segmentation",
+      "label": "segmentation()",
+      "degree": 7
+    },
+    {
+      "id": "emg_pipeline_clean",
+      "label": "clean()",
+      "degree": 6
+    },
+    {
+      "id": "preprocessing_functions_create_sliding_window_frequencey_filter",
+      "label": "create_sliding_window_frequencey_filter()",
+      "degree": 6
+    },
+    {
+      "id": "preprocessing_functions_sliding_window_frequencey_filter",
+      "label": "sliding_window_frequencey_filter()",
+      "degree": 6
+    },
+    {
+      "id": "preprocessing_functions_self_baseline_sliding_window_frequencey_filter",
+      "label": "self_baseline_sliding_window_frequencey_filter()",
+      "degree": 6
+    },
+    {
+      "id": "emg_pipeline_find_trials",
+      "label": "find_trials()",
+      "degree": 5
+    }
+  ],
+  "surprises": [
+    {
+      "source": "apply_filters_P3()",
+      "target": "clean()",
+      "source_files": [
+        "preprocessing_functions.py",
+        "emg_pipeline.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; bridges separate communities"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}
