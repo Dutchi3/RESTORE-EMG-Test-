@@ -35,25 +35,12 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 18,
+      "community": 1,
       "community_name": "emg_pipeline.py",
       "file_type": "code",
       "norm_label": "patient",
       "source_file": "emg_pipeline.py",
       "source_location": "L129"
-    },
-    {
-      "id": "emg_pipeline_trial",
-      "label": "Trial",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "code",
-      "norm_label": "trial",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L673"
     },
     {
       "id": "gait_video_track",
@@ -69,28 +56,29 @@
       "source_location": "L109"
     },
     {
-      "id": "emg_pipeline_detect_activation",
-      "label": "detect_activation()",
+      "id": "emg_pipeline_trial",
+      "label": "Trial",
       "_callable": true,
+      "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
-      "community_name": "restores_csv.py",
+      "community": 20,
+      "community_name": "process_arrays",
       "file_type": "code",
-      "norm_label": "detect_activation()",
+      "norm_label": "trial",
       "source_file": "emg_pipeline.py",
-      "source_location": "L508"
+      "source_location": "L673"
     },
     {
-      "id": "emg_pipeline_moving_rms",
-      "label": "moving_rms()",
+      "id": "emg_pipeline_is_environmental",
+      "label": "is_environmental()",
       "_callable": true,
       "_origin": "ast",
       "community": 0,
       "community_name": "restores_csv.py",
       "file_type": "code",
-      "norm_label": "moving_rms()",
+      "norm_label": "is_environmental()",
       "source_file": "emg_pipeline.py",
-      "source_location": "L228"
+      "source_location": "L387"
     },
     {
       "id": "restores_csv_agonists",
@@ -294,7 +282,7 @@
       "file_type": "code",
       "norm_label": "analyze_file()",
       "source_file": "run_walking_emg.py",
-      "source_location": "L76"
+      "source_location": "L72"
     },
     {
       "id": "run_walking_emg_main",
@@ -306,7 +294,7 @@
       "file_type": "code",
       "norm_label": "main()",
       "source_file": "run_walking_emg.py",
-      "source_location": "L179"
+      "source_location": "L175"
     },
     {
       "id": "run_walking_emg_plot_cycles",
@@ -318,7 +306,7 @@
       "file_type": "code",
       "norm_label": "plot_cycles()",
       "source_file": "run_walking_emg.py",
-      "source_location": "L151"
+      "source_location": "L147"
     },
     {
       "id": "run_walking_emg_stim_rate",
@@ -330,7 +318,7 @@
       "file_type": "code",
       "norm_label": "stim_rate()",
       "source_file": "run_walking_emg.py",
-      "source_location": "L52"
+      "source_location": "L49"
     },
     {
       "id": "run_walking_emg_stride_bounds",
@@ -342,86 +330,14 @@
       "file_type": "code",
       "norm_label": "stride_bounds()",
       "source_file": "run_walking_emg.py",
-      "source_location": "L65"
-    },
-    {
-      "id": "emg_pipeline_artifact_prominence",
-      "label": "artifact_prominence()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "code",
-      "norm_label": "artifact_prominence()",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L759"
-    },
-    {
-      "id": "emg_pipeline_blank_pulses",
-      "label": "blank_pulses()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "code",
-      "norm_label": "blank_pulses()",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L447"
-    },
-    {
-      "id": "emg_pipeline_build_filter",
-      "label": "build_filter()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "code",
-      "norm_label": "build_filter()",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L191"
-    },
-    {
-      "id": "emg_pipeline_check_duplicate_recordings",
-      "label": "check_duplicate_recordings()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "code",
-      "norm_label": "check_duplicate_recordings()",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L790"
-    },
-    {
-      "id": "emg_pipeline_detect_pulse_train",
-      "label": "detect_pulse_train()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "code",
-      "norm_label": "detect_pulse_train()",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L284"
-    },
-    {
-      "id": "emg_pipeline_detect_stim_comb",
-      "label": "detect_stim_comb()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "code",
-      "norm_label": "detect_stim_comb()",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L322"
+      "source_location": "L61"
     },
     {
       "id": "emg_pipeline_detect_stim_frequency",
       "label": "detect_stim_frequency()",
       "_callable": true,
       "_origin": "ast",
-      "community": 18,
+      "community": 1,
       "community_name": "emg_pipeline.py",
       "file_type": "code",
       "norm_label": "detect_stim_frequency()",
@@ -429,119 +345,11 @@
       "source_location": "L159"
     },
     {
-      "id": "emg_pipeline_find_baseline",
-      "label": "find_baseline()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "code",
-      "norm_label": "find_baseline()",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L617"
-    },
-    {
-      "id": "emg_pipeline_find_trials",
-      "label": "find_trials()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "code",
-      "norm_label": "find_trials()",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L578"
-    },
-    {
-      "id": "emg_pipeline_gain_scale",
-      "label": "gain_scale()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "code",
-      "norm_label": "gain_scale()",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L647"
-    },
-    {
-      "id": "emg_pipeline_is_environmental",
-      "label": "is_environmental()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "code",
-      "norm_label": "is_environmental()",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L387"
-    },
-    {
-      "id": "emg_pipeline_load_concatenated",
-      "label": "load_concatenated()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "code",
-      "norm_label": "load_concatenated()",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L607"
-    },
-    {
-      "id": "emg_pipeline_load_recording",
-      "label": "load_recording()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "code",
-      "norm_label": "load_recording()",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L598"
-    },
-    {
-      "id": "emg_pipeline_measure_stim",
-      "label": "measure_stim()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "code",
-      "norm_label": "measure_stim()",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L398"
-    },
-    {
-      "id": "emg_pipeline_notch_sections",
-      "label": "_notch_sections()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "code",
-      "norm_label": "_notch_sections()",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L150"
-    },
-    {
-      "id": "emg_pipeline_parse_name",
-      "label": "parse_name()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "code",
-      "norm_label": "parse_name()",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L570"
-    },
-    {
       "id": "emg_pipeline_patient_exercise_number",
       "label": ".exercise_number()",
       "_callable": true,
       "_origin": "ast",
-      "community": 18,
+      "community": 1,
       "community_name": "emg_pipeline.py",
       "file_type": "code",
       "norm_label": ".exercise_number()",
@@ -549,71 +357,11 @@
       "source_location": "L136"
     },
     {
-      "id": "emg_pipeline_process_arrays",
-      "label": "process_arrays()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "code",
-      "norm_label": "process_arrays()",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L695"
-    },
-    {
-      "id": "emg_pipeline_process_trial",
-      "label": "process_trial()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "code",
-      "norm_label": "process_trial()",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L732"
-    },
-    {
-      "id": "emg_pipeline_pulse_train_consensus",
-      "label": "pulse_train_consensus()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "code",
-      "norm_label": "pulse_train_consensus()",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L407"
-    },
-    {
-      "id": "emg_pipeline_qc_row",
-      "label": "qc_row()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "code",
-      "norm_label": "qc_row()",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L770"
-    },
-    {
-      "id": "emg_pipeline_remove_artifact",
-      "label": "remove_artifact()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "code",
-      "norm_label": "remove_artifact()",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L485"
-    },
-    {
       "id": "emg_pipeline_resolve_root",
       "label": "_resolve_root()",
       "_callable": true,
       "_origin": "ast",
-      "community": 18,
+      "community": 1,
       "community_name": "emg_pipeline.py",
       "file_type": "code",
       "norm_label": "_resolve_root()",
@@ -625,7 +373,7 @@
       "label": "rms_envelope()",
       "_callable": true,
       "_origin": "ast",
-      "community": 18,
+      "community": 1,
       "community_name": "emg_pipeline.py",
       "file_type": "code",
       "norm_label": "rms_envelope()",
@@ -637,7 +385,7 @@
       "label": "robust_peak()",
       "_callable": true,
       "_origin": "ast",
-      "community": 18,
+      "community": 1,
       "community_name": "emg_pipeline.py",
       "file_type": "code",
       "norm_label": "robust_peak()",
@@ -645,40 +393,88 @@
       "source_location": "L499"
     },
     {
-      "id": "emg_pipeline_spike_times",
-      "label": "spike_times()",
+      "id": "emg_pipeline_check_duplicate_recordings",
+      "label": "check_duplicate_recordings()",
       "_callable": true,
       "_origin": "ast",
       "community": 18,
-      "community_name": "emg_pipeline.py",
+      "community_name": "process_trial",
       "file_type": "code",
-      "norm_label": "spike_times()",
+      "norm_label": "check_duplicate_recordings()",
       "source_file": "emg_pipeline.py",
-      "source_location": "L251"
+      "source_location": "L790"
     },
     {
-      "id": "emg_pipeline_trial_active_fraction",
-      "label": ".active_fraction()",
+      "id": "emg_pipeline_find_baseline",
+      "label": "find_baseline()",
       "_callable": true,
       "_origin": "ast",
       "community": 18,
-      "community_name": "emg_pipeline.py",
+      "community_name": "process_trial",
       "file_type": "code",
-      "norm_label": ".active_fraction()",
+      "norm_label": "find_baseline()",
       "source_file": "emg_pipeline.py",
-      "source_location": "L688"
+      "source_location": "L617"
     },
     {
-      "id": "emg_pipeline_trial_rms",
-      "label": ".rms()",
+      "id": "emg_pipeline_find_trials",
+      "label": "find_trials()",
       "_callable": true,
       "_origin": "ast",
       "community": 18,
-      "community_name": "emg_pipeline.py",
+      "community_name": "process_trial",
       "file_type": "code",
-      "norm_label": ".rms()",
+      "norm_label": "find_trials()",
       "source_file": "emg_pipeline.py",
-      "source_location": "L691"
+      "source_location": "L578"
+    },
+    {
+      "id": "emg_pipeline_load_concatenated",
+      "label": "load_concatenated()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "process_trial",
+      "file_type": "code",
+      "norm_label": "load_concatenated()",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L607"
+    },
+    {
+      "id": "emg_pipeline_load_recording",
+      "label": "load_recording()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "process_trial",
+      "file_type": "code",
+      "norm_label": "load_recording()",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L598"
+    },
+    {
+      "id": "emg_pipeline_parse_name",
+      "label": "parse_name()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "process_trial",
+      "file_type": "code",
+      "norm_label": "parse_name()",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L570"
+    },
+    {
+      "id": "emg_pipeline_process_trial",
+      "label": "process_trial()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "process_trial",
+      "file_type": "code",
+      "norm_label": "process_trial()",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L732"
     },
     {
       "id": "gait_video_analyze_video",
@@ -690,19 +486,7 @@
       "file_type": "code",
       "norm_label": "analyze_video()",
       "source_file": "gait_video.py",
-      "source_location": "L827"
-    },
-    {
-      "id": "gait_video_cache_is_current",
-      "label": "cache_is_current()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 19,
-      "community_name": "gait_video.py",
-      "file_type": "code",
-      "norm_label": "cache_is_current()",
-      "source_file": "gait_video.py",
-      "source_location": "L233"
+      "source_location": "L785"
     },
     {
       "id": "gait_video_choose_method",
@@ -714,7 +498,7 @@
       "file_type": "code",
       "norm_label": "choose_method()",
       "source_file": "gait_video.py",
-      "source_location": "L500"
+      "source_location": "L480"
     },
     {
       "id": "gait_video_compute_kinematics",
@@ -726,7 +510,7 @@
       "file_type": "code",
       "norm_label": "compute_kinematics()",
       "source_file": "gait_video.py",
-      "source_location": "L318"
+      "source_location": "L298"
     },
     {
       "id": "gait_video_consistency",
@@ -738,7 +522,7 @@
       "file_type": "code",
       "norm_label": "_consistency()",
       "source_file": "gait_video.py",
-      "source_location": "L633"
+      "source_location": "L613"
     },
     {
       "id": "gait_video_detect_events",
@@ -750,7 +534,7 @@
       "file_type": "code",
       "norm_label": "detect_events()",
       "source_file": "gait_video.py",
-      "source_location": "L507"
+      "source_location": "L487"
     },
     {
       "id": "gait_video_dominant_period",
@@ -762,7 +546,7 @@
       "file_type": "code",
       "norm_label": "dominant_period()",
       "source_file": "gait_video.py",
-      "source_location": "L412"
+      "source_location": "L392"
     },
     {
       "id": "gait_video_end_of_rise",
@@ -774,7 +558,7 @@
       "file_type": "code",
       "norm_label": "_end_of_rise()",
       "source_file": "gait_video.py",
-      "source_location": "L447"
+      "source_location": "L427"
     },
     {
       "id": "gait_video_event_signals",
@@ -786,7 +570,7 @@
       "file_type": "code",
       "norm_label": "event_signals()",
       "source_file": "gait_video.py",
-      "source_location": "L487"
+      "source_location": "L467"
     },
     {
       "id": "gait_video_interp_nan",
@@ -798,7 +582,7 @@
       "file_type": "code",
       "norm_label": "_interp_nan()",
       "source_file": "gait_video.py",
-      "source_location": "L403"
+      "source_location": "L383"
     },
     {
       "id": "gait_video_joint_angle",
@@ -810,7 +594,7 @@
       "file_type": "code",
       "norm_label": "joint_angle()",
       "source_file": "gait_video.py",
-      "source_location": "L292"
+      "source_location": "L272"
     },
     {
       "id": "gait_video_load_track",
@@ -822,7 +606,7 @@
       "file_type": "code",
       "norm_label": "load_track()",
       "source_file": "gait_video.py",
-      "source_location": "L242"
+      "source_location": "L221"
     },
     {
       "id": "gait_video_long_gaps",
@@ -834,7 +618,7 @@
       "file_type": "code",
       "norm_label": "_long_gaps()",
       "source_file": "gait_video.py",
-      "source_location": "L258"
+      "source_location": "L238"
     },
     {
       "id": "gait_video_model_path",
@@ -858,7 +642,7 @@
       "file_type": "code",
       "norm_label": "normalize_cycles()",
       "source_file": "gait_video.py",
-      "source_location": "L610"
+      "source_location": "L590"
     },
     {
       "id": "gait_video_onset_of_fall",
@@ -870,19 +654,7 @@
       "file_type": "code",
       "norm_label": "_onset_of_fall()",
       "source_file": "gait_video.py",
-      "source_location": "L467"
-    },
-    {
-      "id": "gait_video_overlay_text",
-      "label": "_overlay_text()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 19,
-      "community_name": "gait_video.py",
-      "file_type": "code",
-      "norm_label": "_overlay_text()",
-      "source_file": "gait_video.py",
-      "source_location": "L759"
+      "source_location": "L447"
     },
     {
       "id": "gait_video_peaks",
@@ -894,7 +666,7 @@
       "file_type": "code",
       "norm_label": "_peaks()",
       "source_file": "gait_video.py",
-      "source_location": "L302"
+      "source_location": "L282"
     },
     {
       "id": "gait_video_pick_pose",
@@ -918,7 +690,7 @@
       "file_type": "code",
       "norm_label": "plot_cycles()",
       "source_file": "gait_video.py",
-      "source_location": "L728"
+      "source_location": "L708"
     },
     {
       "id": "gait_video_plot_traces",
@@ -930,7 +702,7 @@
       "file_type": "code",
       "norm_label": "plot_traces()",
       "source_file": "gait_video.py",
-      "source_location": "L693"
+      "source_location": "L673"
     },
     {
       "id": "gait_video_rom",
@@ -942,7 +714,7 @@
       "file_type": "code",
       "norm_label": "_rom()",
       "source_file": "gait_video.py",
-      "source_location": "L606"
+      "source_location": "L586"
     },
     {
       "id": "gait_video_save_track",
@@ -954,7 +726,7 @@
       "file_type": "code",
       "norm_label": "save_track()",
       "source_file": "gait_video.py",
-      "source_location": "L220"
+      "source_location": "L207"
     },
     {
       "id": "gait_video_si",
@@ -966,7 +738,7 @@
       "file_type": "code",
       "norm_label": "_si()",
       "source_file": "gait_video.py",
-      "source_location": "L642"
+      "source_location": "L622"
     },
     {
       "id": "gait_video_smooth_series",
@@ -978,7 +750,7 @@
       "file_type": "code",
       "norm_label": "smooth_series()",
       "source_file": "gait_video.py",
-      "source_location": "L271"
+      "source_location": "L251"
     },
     {
       "id": "gait_video_stride_table",
@@ -990,7 +762,7 @@
       "file_type": "code",
       "norm_label": "stride_table()",
       "source_file": "gait_video.py",
-      "source_location": "L551"
+      "source_location": "L531"
     },
     {
       "id": "gait_video_summarize",
@@ -1002,7 +774,7 @@
       "file_type": "code",
       "norm_label": "summarize()",
       "source_file": "gait_video.py",
-      "source_location": "L649"
+      "source_location": "L629"
     },
     {
       "id": "gait_video_track_detected",
@@ -1050,7 +822,7 @@
       "file_type": "code",
       "norm_label": "view_label()",
       "source_file": "gait_video.py",
-      "source_location": "L393"
+      "source_location": "L373"
     },
     {
       "id": "gait_video_walking_mask",
@@ -1062,7 +834,7 @@
       "file_type": "code",
       "norm_label": "walking_mask()",
       "source_file": "gait_video.py",
-      "source_location": "L437"
+      "source_location": "L417"
     },
     {
       "id": "gait_video_write_annotated",
@@ -1074,7 +846,7 @@
       "file_type": "code",
       "norm_label": "write_annotated()",
       "source_file": "gait_video.py",
-      "source_location": "L763"
+      "source_location": "L733"
     },
     {
       "id": "coherence_rms",
@@ -1099,18 +871,6 @@
       "norm_label": "rms_envelope()",
       "source_file": "coherence.py",
       "source_location": "L31"
-    },
-    {
-      "id": "emg_pipeline_clean",
-      "label": "clean()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "preprocessing_functions.py",
-      "file_type": "code",
-      "norm_label": "clean()",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L214"
     },
     {
       "id": "normalize_to_baseline_rms",
@@ -1365,6 +1125,222 @@
       "source_location": "L44"
     },
     {
+      "id": "emg_pipeline_detect_activation",
+      "label": "detect_activation()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "process_arrays",
+      "file_type": "code",
+      "norm_label": "detect_activation()",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L508"
+    },
+    {
+      "id": "emg_pipeline_gain_scale",
+      "label": "gain_scale()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "process_arrays",
+      "file_type": "code",
+      "norm_label": "gain_scale()",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L647"
+    },
+    {
+      "id": "emg_pipeline_moving_rms",
+      "label": "moving_rms()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "process_arrays",
+      "file_type": "code",
+      "norm_label": "moving_rms()",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L228"
+    },
+    {
+      "id": "emg_pipeline_process_arrays",
+      "label": "process_arrays()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "process_arrays",
+      "file_type": "code",
+      "norm_label": "process_arrays()",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L695"
+    },
+    {
+      "id": "emg_pipeline_trial_active_fraction",
+      "label": ".active_fraction()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "process_arrays",
+      "file_type": "code",
+      "norm_label": ".active_fraction()",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L688"
+    },
+    {
+      "id": "emg_pipeline_trial_rms",
+      "label": ".rms()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "process_arrays",
+      "file_type": "code",
+      "norm_label": ".rms()",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L691"
+    },
+    {
+      "id": "emg_pipeline_detect_pulse_train",
+      "label": "detect_pulse_train()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "measure_stim",
+      "file_type": "code",
+      "norm_label": "detect_pulse_train()",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L284"
+    },
+    {
+      "id": "emg_pipeline_detect_stim_comb",
+      "label": "detect_stim_comb()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "measure_stim",
+      "file_type": "code",
+      "norm_label": "detect_stim_comb()",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L322"
+    },
+    {
+      "id": "emg_pipeline_measure_stim",
+      "label": "measure_stim()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "measure_stim",
+      "file_type": "code",
+      "norm_label": "measure_stim()",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L398"
+    },
+    {
+      "id": "emg_pipeline_pulse_train_consensus",
+      "label": "pulse_train_consensus()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "measure_stim",
+      "file_type": "code",
+      "norm_label": "pulse_train_consensus()",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L407"
+    },
+    {
+      "id": "emg_pipeline_spike_times",
+      "label": "spike_times()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "measure_stim",
+      "file_type": "code",
+      "norm_label": "spike_times()",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L251"
+    },
+    {
+      "id": "emg_pipeline_blank_pulses",
+      "label": "blank_pulses()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "clean",
+      "file_type": "code",
+      "norm_label": "blank_pulses()",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L447"
+    },
+    {
+      "id": "emg_pipeline_build_filter",
+      "label": "build_filter()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "clean",
+      "file_type": "code",
+      "norm_label": "build_filter()",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L191"
+    },
+    {
+      "id": "emg_pipeline_clean",
+      "label": "clean()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "clean",
+      "file_type": "code",
+      "norm_label": "clean()",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L214"
+    },
+    {
+      "id": "emg_pipeline_notch_sections",
+      "label": "_notch_sections()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "clean",
+      "file_type": "code",
+      "norm_label": "_notch_sections()",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L150"
+    },
+    {
+      "id": "emg_pipeline_remove_artifact",
+      "label": "remove_artifact()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "clean",
+      "file_type": "code",
+      "norm_label": "remove_artifact()",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L485"
+    },
+    {
+      "id": "emg_pipeline_artifact_prominence",
+      "label": "artifact_prominence()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "artifact_prominence",
+      "file_type": "code",
+      "norm_label": "artifact_prominence()",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L759"
+    },
+    {
+      "id": "emg_pipeline_qc_row",
+      "label": "qc_row()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "artifact_prominence",
+      "file_type": "code",
+      "norm_label": "qc_row()",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L770"
+    },
+    {
       "id": "run_gait_video_find_videos",
       "label": "find_videos()",
       "_callable": true,
@@ -1422,26 +1398,15 @@
       "source_location": "L1"
     },
     {
-      "id": "emg_pipeline_rationale_229",
-      "label": "Same-length RMS envelope.",
+      "id": "emg_pipeline_rationale_388",
+      "label": "True for a spectral comb sitting on the ENV_COMB_HZ ladder. A spike train\u2026",
       "_origin": "ast",
       "community": 0,
       "community_name": "restores_csv.py",
       "file_type": "rationale",
-      "norm_label": "same-length rms envelope.",
+      "norm_label": "true for a spectral comb sitting on the env_comb_hz ladder. a spike train...",
       "source_file": "emg_pipeline.py",
-      "source_location": "L229"
-    },
-    {
-      "id": "emg_pipeline_rationale_511",
-      "label": "Samples where the muscle is active. The threshold is derived from the *rest*\u2026",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "restores_csv.py",
-      "file_type": "rationale",
-      "norm_label": "samples where the muscle is active. the threshold is derived from the *rest*...",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L511"
+      "source_location": "L388"
     },
     {
       "id": "restores_csv_rationale_112",
@@ -1565,7 +1530,7 @@
       "source_location": "L2"
     },
     {
-      "id": "run_walking_emg_rationale_66",
+      "id": "run_walking_emg_rationale_62",
       "label": "Tab-to-tab intervals as (start, end) sample pairs, with the odd ones flagged.",
       "_origin": "ast",
       "community": 0,
@@ -1573,7 +1538,73 @@
       "file_type": "rationale",
       "norm_label": "tab-to-tab intervals as (start, end) sample pairs, with the odd ones flagged.",
       "source_file": "run_walking_emg.py",
-      "source_location": "L66"
+      "source_location": "L62"
+    },
+    {
+      "id": "emg_pipeline",
+      "label": "emg_pipeline.py",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "emg_pipeline.py",
+      "file_type": "code",
+      "norm_label": "emg_pipeline.py",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "emg_pipeline_rationale_130",
+      "label": "Per-patient recording conventions.",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "emg_pipeline.py",
+      "file_type": "rationale",
+      "norm_label": "per-patient recording conventions.",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L130"
+    },
+    {
+      "id": "emg_pipeline_rationale_161",
+      "label": "Find the stimulation line in a recording, or None if there isn't one. STIM_HZ\u2026",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "emg_pipeline.py",
+      "file_type": "rationale",
+      "norm_label": "find the stimulation line in a recording, or none if there isn't one. stim_hz...",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L161"
+    },
+    {
+      "id": "emg_pipeline_rationale_2",
+      "label": "Single-path EMG processing for the RESTORES study (P1-P3). Replaces the six\u2026",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "emg_pipeline.py",
+      "file_type": "rationale",
+      "norm_label": "single-path emg processing for the restores study (p1-p3). replaces the six...",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L2"
+    },
+    {
+      "id": "emg_pipeline_rationale_236",
+      "label": "Windowed RMS. window_s=0.05 matches the original's 500-sample window (its\u2026",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "emg_pipeline.py",
+      "file_type": "rationale",
+      "norm_label": "windowed rms. window_s=0.05 matches the original's 500-sample window (its...",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L236"
+    },
+    {
+      "id": "emg_pipeline_rationale_500",
+      "label": "Finding 17: max() is a single sample and one artifact spike rescales a whole\u2026",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "emg_pipeline.py",
+      "file_type": "rationale",
+      "norm_label": "finding 17: max() is a single sample and one artifact spike rescales a whole...",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L500"
     },
     {
       "id": "claude_skills_graphify_references_update",
@@ -1850,176 +1881,11 @@
       "source_location": "L29"
     },
     {
-      "id": "emg_pipeline",
-      "label": "emg_pipeline.py",
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "code",
-      "norm_label": "emg_pipeline.py",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "emg_pipeline_rationale_130",
-      "label": "Per-patient recording conventions.",
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "rationale",
-      "norm_label": "per-patient recording conventions.",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L130"
-    },
-    {
-      "id": "emg_pipeline_rationale_161",
-      "label": "Find the stimulation line in a recording, or None if there isn't one. STIM_HZ\u2026",
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "rationale",
-      "norm_label": "find the stimulation line in a recording, or none if there isn't one. stim_hz...",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L161"
-    },
-    {
-      "id": "emg_pipeline_rationale_192",
-      "label": "Bandpass plus stimulation and mains harmonics, as one second-order-section\u2026",
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "rationale",
-      "norm_label": "bandpass plus stimulation and mains harmonics, as one second-order-section...",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L192"
-    },
-    {
-      "id": "emg_pipeline_rationale_2",
-      "label": "Single-path EMG processing for the RESTORES study (P1-P3). Replaces the six\u2026",
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "rationale",
-      "norm_label": "single-path emg processing for the restores study (p1-p3). replaces the six...",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L2"
-    },
-    {
-      "id": "emg_pipeline_rationale_236",
-      "label": "Windowed RMS. window_s=0.05 matches the original's 500-sample window (its\u2026",
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "rationale",
-      "norm_label": "windowed rms. window_s=0.05 matches the original's 500-sample window (its...",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L236"
-    },
-    {
-      "id": "emg_pipeline_rationale_252",
-      "label": "Sample indices of stimulation spikes. -> (indices, |dx|, settled-slope level) A\u2026",
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "rationale",
-      "norm_label": "sample indices of stimulation spikes. -> (indices, |dx|, settled-slope level) a...",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L252"
-    },
-    {
-      "id": "emg_pipeline_rationale_285",
-      "label": "-> (pulse rate in Hz or None, consistency). Measured from the spacing of\u2026",
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "rationale",
-      "norm_label": "-> (pulse rate in hz or none, consistency). measured from the spacing of...",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L285"
-    },
-    {
-      "id": "emg_pipeline_rationale_325",
-      "label": "Fundamental of a harmonic comb in the spectrum, or None. -> (f0, mean dB)\u2026",
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "rationale",
-      "norm_label": "fundamental of a harmonic comb in the spectrum, or none. -> (f0, mean db)...",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L325"
-    },
-    {
-      "id": "emg_pipeline_rationale_388",
-      "label": "True for a spectral comb sitting on the ENV_COMB_HZ ladder. A spike train\u2026",
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "rationale",
-      "norm_label": "true for a spectral comb sitting on the env_comb_hz ladder. a spike train...",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L388"
-    },
-    {
-      "id": "emg_pipeline_rationale_399",
-      "label": "-> (rate or None, method) where method is 'pulses', 'comb' or None.",
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "rationale",
-      "norm_label": "-> (rate or none, method) where method is 'pulses', 'comb' or none.",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L399"
-    },
-    {
-      "id": "emg_pipeline_rationale_408",
-      "label": "Stimulation rate agreed by at least two channels, else None. -> (rate,\u2026",
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "rationale",
-      "norm_label": "stimulation rate agreed by at least two channels, else none. -> (rate,...",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L408"
-    },
-    {
-      "id": "emg_pipeline_rationale_448",
-      "label": "Cut each stimulation spike out of the trace and bridge the gap. -> (blanked\u2026",
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "rationale",
-      "norm_label": "cut each stimulation spike out of the trace and bridge the gap. -> (blanked...",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L448"
-    },
-    {
-      "id": "emg_pipeline_rationale_486",
-      "label": "Blank the pulses (if a rate was found), then bandpass + notches. stim_hz=None\u2026",
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "rationale",
-      "norm_label": "blank the pulses (if a rate was found), then bandpass + notches. stim_hz=none...",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L486"
-    },
-    {
-      "id": "emg_pipeline_rationale_500",
-      "label": "Finding 17: max() is a single sample and one artifact spike rescales a whole\u2026",
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "rationale",
-      "norm_label": "finding 17: max() is a single sample and one artifact spike rescales a whole...",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L500"
-    },
-    {
       "id": "emg_pipeline_rationale_571",
       "label": "-> (exercise_number, subtrial or None), or (None, None) if unnumbered.",
       "_origin": "ast",
       "community": 18,
-      "community_name": "emg_pipeline.py",
+      "community_name": "process_trial",
       "file_type": "rationale",
       "norm_label": "-> (exercise_number, subtrial or none), or (none, none) if unnumbered.",
       "source_file": "emg_pipeline.py",
@@ -2030,7 +1896,7 @@
       "label": "Every file for one exercise, in subtrial order. Subtrial 4 is the 'controlled\u2026",
       "_origin": "ast",
       "community": 18,
-      "community_name": "emg_pipeline.py",
+      "community_name": "process_trial",
       "file_type": "rationale",
       "norm_label": "every file for one exercise, in subtrial order. subtrial 4 is the 'controlled...",
       "source_file": "emg_pipeline.py",
@@ -2041,7 +1907,7 @@
       "label": "Load a .mat once and return the full (16, N) array. The original called loadmat\u2026",
       "_origin": "ast",
       "community": 18,
-      "community_name": "emg_pipeline.py",
+      "community_name": "process_trial",
       "file_type": "rationale",
       "norm_label": "load a .mat once and return the full (16, n) array. the original called loadmat...",
       "source_file": "emg_pipeline.py",
@@ -2052,7 +1918,7 @@
       "label": "Concatenate the trials of one exercise into a single (16, N) array.",
       "_origin": "ast",
       "community": 18,
-      "community_name": "emg_pipeline.py",
+      "community_name": "process_trial",
       "file_type": "rationale",
       "norm_label": "concatenate the trials of one exercise into a single (16, n) array.",
       "source_file": "emg_pipeline.py",
@@ -2063,73 +1929,29 @@
       "label": "The rest recording *recorded in the same stimulation condition*. This matters\u2026",
       "_origin": "ast",
       "community": 18,
-      "community_name": "emg_pipeline.py",
+      "community_name": "process_trial",
       "file_type": "rationale",
       "norm_label": "the rest recording *recorded in the same stimulation condition*. this matters...",
       "source_file": "emg_pipeline.py",
       "source_location": "L618"
     },
     {
-      "id": "emg_pipeline_rationale_648",
-      "label": "Divide out the amplifier range so amplitudes are comparable across conditions\u2026",
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "rationale",
-      "norm_label": "divide out the amplifier range so amplitudes are comparable across conditions...",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L648"
-    },
-    {
-      "id": "emg_pipeline_rationale_697",
-      "label": "Process one exercise given its (n_ch, N) array and its rest recording. Format-\u2026",
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "rationale",
-      "norm_label": "process one exercise given its (n_ch, n) array and its rest recording. format-...",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L697"
-    },
-    {
       "id": "emg_pipeline_rationale_734",
       "label": "Load one exercise for one session (.mat tree) and return a Trial per electrode.\u2026",
       "_origin": "ast",
       "community": 18,
-      "community_name": "emg_pipeline.py",
+      "community_name": "process_trial",
       "file_type": "rationale",
       "norm_label": "load one exercise for one session (.mat tree) and return a trial per electrode....",
       "source_file": "emg_pipeline.py",
       "source_location": "L734"
     },
     {
-      "id": "emg_pipeline_rationale_760",
-      "label": "Height of the stimulation line above local spectral background, in dB.",
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "rationale",
-      "norm_label": "height of the stimulation line above local spectral background, in db.",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L760"
-    },
-    {
-      "id": "emg_pipeline_rationale_771",
-      "label": "Per-trial quality metrics. The original emitted nothing like this, so a 26x\u2026",
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "emg_pipeline.py",
-      "file_type": "rationale",
-      "norm_label": "per-trial quality metrics. the original emitted nothing like this, so a 26x...",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L771"
-    },
-    {
       "id": "emg_pipeline_rationale_791",
       "label": "True when a session's stim-on recording is a byte-copy of its stim-off one.\u2026",
       "_origin": "ast",
       "community": 18,
-      "community_name": "emg_pipeline.py",
+      "community_name": "process_trial",
       "file_type": "rationale",
       "norm_label": "true when a session's stim-on recording is a byte-copy of its stim-off one....",
       "source_file": "emg_pipeline.py",
@@ -2180,40 +2002,29 @@
       "source_location": "L2"
     },
     {
-      "id": "gait_video_rationale_221",
-      "label": "Raw per-frame landmarks (pixels, visibility, world metres), all 33 points.",
+      "id": "gait_video_rationale_208",
+      "label": "Raw per-frame landmarks (pixels, visibility, world metres) for the 12 gait\u2026",
       "_origin": "ast",
       "community": 19,
       "community_name": "gait_video.py",
       "file_type": "rationale",
-      "norm_label": "raw per-frame landmarks (pixels, visibility, world metres), all 33 points.",
+      "norm_label": "raw per-frame landmarks (pixels, visibility, world metres) for the 12 gait...",
       "source_file": "gait_video.py",
-      "source_location": "L221"
+      "source_location": "L208"
     },
     {
-      "id": "gait_video_rationale_234",
-      "label": "False for caches written before all 33 landmarks were stored.",
+      "id": "gait_video_rationale_222",
+      "label": "Rebuild a Track (gait landmarks only) from save_track output, to skip re-\u2026",
       "_origin": "ast",
       "community": 19,
       "community_name": "gait_video.py",
       "file_type": "rationale",
-      "norm_label": "false for caches written before all 33 landmarks were stored.",
+      "norm_label": "rebuild a track (gait landmarks only) from save_track output, to skip re-...",
       "source_file": "gait_video.py",
-      "source_location": "L234"
+      "source_location": "L222"
     },
     {
-      "id": "gait_video_rationale_243",
-      "label": "Rebuild a Track from save_track output, to skip re-tracking.",
-      "_origin": "ast",
-      "community": 19,
-      "community_name": "gait_video.py",
-      "file_type": "rationale",
-      "norm_label": "rebuild a track from save_track output, to skip re-tracking.",
-      "source_file": "gait_video.py",
-      "source_location": "L243"
-    },
-    {
-      "id": "gait_video_rationale_259",
+      "id": "gait_video_rationale_239",
       "label": "Mask of samples inside runs of ~ok longer than max_len.",
       "_origin": "ast",
       "community": 19,
@@ -2221,10 +2032,10 @@
       "file_type": "rationale",
       "norm_label": "mask of samples inside runs of ~ok longer than max_len.",
       "source_file": "gait_video.py",
-      "source_location": "L259"
+      "source_location": "L239"
     },
     {
-      "id": "gait_video_rationale_272",
+      "id": "gait_video_rationale_252",
       "label": "Zero-phase low-pass of a series with NaN gaps. Gaps shorter than max_gap_s are\u2026",
       "_origin": "ast",
       "community": 19,
@@ -2232,10 +2043,10 @@
       "file_type": "rationale",
       "norm_label": "zero-phase low-pass of a series with nan gaps. gaps shorter than max_gap_s are...",
       "source_file": "gait_video.py",
-      "source_location": "L272"
+      "source_location": "L252"
     },
     {
-      "id": "gait_video_rationale_293",
+      "id": "gait_video_rationale_273",
       "label": "Interior angle ABC in degrees at vertex b; arrays (n, d) with d = 2 or 3. 180 =\u2026",
       "_origin": "ast",
       "community": 19,
@@ -2243,10 +2054,10 @@
       "file_type": "rationale",
       "norm_label": "interior angle abc in degrees at vertex b; arrays (n, d) with d = 2 or 3. 180 =...",
       "source_file": "gait_video.py",
-      "source_location": "L293"
+      "source_location": "L273"
     },
     {
-      "id": "gait_video_rationale_303",
+      "id": "gait_video_rationale_283",
       "label": "Peak indices of a NaN-bearing series; peaks inside NaN stretches are dropped.",
       "_origin": "ast",
       "community": 19,
@@ -2254,10 +2065,10 @@
       "file_type": "rationale",
       "norm_label": "peak indices of a nan-bearing series; peaks inside nan stretches are dropped.",
       "source_file": "gait_video.py",
-      "source_location": "L303"
+      "source_location": "L283"
     },
     {
-      "id": "gait_video_rationale_319",
+      "id": "gait_video_rationale_299",
       "label": "One row per frame: validity, view, joint angles (2-D pixel, 3-D world, legacy\u2026",
       "_origin": "ast",
       "community": 19,
@@ -2265,10 +2076,10 @@
       "file_type": "rationale",
       "norm_label": "one row per frame: validity, view, joint angles (2-d pixel, 3-d world, legacy...",
       "source_file": "gait_video.py",
-      "source_location": "L319"
+      "source_location": "L299"
     },
     {
-      "id": "gait_video_rationale_413",
+      "id": "gait_video_rationale_393",
       "label": "Stride period (s) from the first strong autocorrelation peak, or None. The\u2026",
       "_origin": "ast",
       "community": 19,
@@ -2276,10 +2087,10 @@
       "file_type": "rationale",
       "norm_label": "stride period (s) from the first strong autocorrelation peak, or none. the...",
       "source_file": "gait_video.py",
-      "source_location": "L413"
+      "source_location": "L393"
     },
     {
-      "id": "gait_video_rationale_438",
+      "id": "gait_video_rationale_418",
       "label": "True where the signal still oscillates: rolling range over one period above\u2026",
       "_origin": "ast",
       "community": 19,
@@ -2287,10 +2098,10 @@
       "file_type": "rationale",
       "norm_label": "true where the signal still oscillates: rolling range over one period above...",
       "source_file": "gait_video.py",
-      "source_location": "L438"
+      "source_location": "L418"
     },
     {
-      "id": "gait_video_rationale_448",
+      "id": "gait_video_rationale_428",
       "label": "Heel strike from a raw maximum of the heel signal. A landing is a fast rise\u2026",
       "_origin": "ast",
       "community": 19,
@@ -2298,10 +2109,10 @@
       "file_type": "rationale",
       "norm_label": "heel strike from a raw maximum of the heel signal. a landing is a fast rise...",
       "source_file": "gait_video.py",
-      "source_location": "L448"
+      "source_location": "L428"
     },
     {
-      "id": "gait_video_rationale_468",
+      "id": "gait_video_rationale_448",
       "label": "Toe off from a raw minimum of the toe image-height signal (frontal video). The\u2026",
       "_origin": "ast",
       "community": 19,
@@ -2309,10 +2120,10 @@
       "file_type": "rationale",
       "norm_label": "toe off from a raw minimum of the toe image-height signal (frontal video). the...",
       "source_file": "gait_video.py",
-      "source_location": "L468"
+      "source_location": "L448"
     },
     {
-      "id": "gait_video_rationale_488",
+      "id": "gait_video_rationale_468",
       "label": "(heel signal with HS at maxima, toe signal with TO at minima) for one side.",
       "_origin": "ast",
       "community": 19,
@@ -2320,10 +2131,10 @@
       "file_type": "rationale",
       "norm_label": "(heel signal with hs at maxima, toe signal with to at minima) for one side.",
       "source_file": "gait_video.py",
-      "source_location": "L488"
+      "source_location": "L468"
     },
     {
-      "id": "gait_video_rationale_508",
+      "id": "gait_video_rationale_488",
       "label": "Heel strikes and toe offs per side, adaptive to the patient's cadence. methods\u2026",
       "_origin": "ast",
       "community": 19,
@@ -2331,10 +2142,10 @@
       "file_type": "rationale",
       "norm_label": "heel strikes and toe offs per side, adaptive to the patient's cadence. methods...",
       "source_file": "gait_video.py",
-      "source_location": "L508"
+      "source_location": "L488"
     },
     {
-      "id": "gait_video_rationale_552",
+      "id": "gait_video_rationale_532",
       "label": "One row per heel-strike-to-heel-strike stride, with validity checks. Accepted\u2026",
       "_origin": "ast",
       "community": 19,
@@ -2342,10 +2153,10 @@
       "file_type": "rationale",
       "norm_label": "one row per heel-strike-to-heel-strike stride, with validity checks. accepted...",
       "source_file": "gait_video.py",
-      "source_location": "L552"
+      "source_location": "L532"
     },
     {
-      "id": "gait_video_rationale_611",
+      "id": "gait_video_rationale_591",
       "label": "-> {side: (n_valid_strides, n_points, len(columns))}, each stride resampled to\u2026",
       "_origin": "ast",
       "community": 19,
@@ -2353,10 +2164,10 @@
       "file_type": "rationale",
       "norm_label": "-> {side: (n_valid_strides, n_points, len(columns))}, each stride resampled to...",
       "source_file": "gait_video.py",
-      "source_location": "L611"
+      "source_location": "L591"
     },
     {
-      "id": "gait_video_rationale_634",
+      "id": "gait_video_rationale_614",
       "label": "Mean Pearson r between each stride's knee curve and the ensemble mean.",
       "_origin": "ast",
       "community": 19,
@@ -2364,10 +2175,10 @@
       "file_type": "rationale",
       "norm_label": "mean pearson r between each stride's knee curve and the ensemble mean.",
       "source_file": "gait_video.py",
-      "source_location": "L634"
+      "source_location": "L614"
     },
     {
-      "id": "gait_video_rationale_643",
+      "id": "gait_video_rationale_623",
       "label": "Symmetry index (%): 0 = identical sides.",
       "_origin": "ast",
       "community": 19,
@@ -2375,21 +2186,21 @@
       "file_type": "rationale",
       "norm_label": "symmetry index (%): 0 = identical sides.",
       "source_file": "gait_video.py",
-      "source_location": "L643"
+      "source_location": "L623"
     },
     {
-      "id": "gait_video_rationale_764",
-      "label": "Second decode pass: full skeleton (MediaPipe's default pose style, as in\u2026",
+      "id": "gait_video_rationale_734",
+      "label": "Second decode pass: skeleton, angles, view and event flashes drawn on every\u2026",
       "_origin": "ast",
       "community": 19,
       "community_name": "gait_video.py",
       "file_type": "rationale",
-      "norm_label": "second decode pass: full skeleton (mediapipe's default pose style, as in...",
+      "norm_label": "second decode pass: skeleton, angles, view and event flashes drawn on every...",
       "source_file": "gait_video.py",
-      "source_location": "L764"
+      "source_location": "L734"
     },
     {
-      "id": "gait_video_rationale_829",
+      "id": "gait_video_rationale_787",
       "label": "Track, compute, detect, summarise and write everything for one video. ->\u2026",
       "_origin": "ast",
       "community": 19,
@@ -2397,7 +2208,7 @@
       "file_type": "rationale",
       "norm_label": "track, compute, detect, summarise and write everything for one video. ->...",
       "source_file": "gait_video.py",
-      "source_location": "L829"
+      "source_location": "L787"
     },
     {
       "id": "gait_video_rationale_94",
@@ -2499,17 +2310,6 @@
       "source_location": "L2"
     },
     {
-      "id": "emg_pipeline_rationale_215",
-      "label": "Filter one channel. remove_stim=False reproduces the original behaviour.\u2026",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "preprocessing_functions.py",
-      "file_type": "rationale",
-      "norm_label": "filter one channel. remove_stim=false reproduces the original behaviour....",
-      "source_file": "emg_pipeline.py",
-      "source_location": "L215"
-    },
-    {
       "id": "normalize_to_baseline_rationale_2",
       "label": "Created on Wed Apr 1 16:44:56 2026 @author: David Teo",
       "_origin": "ast",
@@ -2585,6 +2385,171 @@
       "norm_label": "created on thu nov 27 12:25:09 2025 @author: david teo",
       "source_file": "synergies stim off vs on.py",
       "source_location": "L2"
+    },
+    {
+      "id": "emg_pipeline_rationale_229",
+      "label": "Same-length RMS envelope.",
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "process_arrays",
+      "file_type": "rationale",
+      "norm_label": "same-length rms envelope.",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L229"
+    },
+    {
+      "id": "emg_pipeline_rationale_511",
+      "label": "Samples where the muscle is active. The threshold is derived from the *rest*\u2026",
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "process_arrays",
+      "file_type": "rationale",
+      "norm_label": "samples where the muscle is active. the threshold is derived from the *rest*...",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L511"
+    },
+    {
+      "id": "emg_pipeline_rationale_648",
+      "label": "Divide out the amplifier range so amplitudes are comparable across conditions\u2026",
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "process_arrays",
+      "file_type": "rationale",
+      "norm_label": "divide out the amplifier range so amplitudes are comparable across conditions...",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L648"
+    },
+    {
+      "id": "emg_pipeline_rationale_697",
+      "label": "Process one exercise given its (n_ch, N) array and its rest recording. Format-\u2026",
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "process_arrays",
+      "file_type": "rationale",
+      "norm_label": "process one exercise given its (n_ch, n) array and its rest recording. format-...",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L697"
+    },
+    {
+      "id": "emg_pipeline_rationale_252",
+      "label": "Sample indices of stimulation spikes. -> (indices, |dx|, settled-slope level) A\u2026",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "measure_stim",
+      "file_type": "rationale",
+      "norm_label": "sample indices of stimulation spikes. -> (indices, |dx|, settled-slope level) a...",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L252"
+    },
+    {
+      "id": "emg_pipeline_rationale_285",
+      "label": "-> (pulse rate in Hz or None, consistency). Measured from the spacing of\u2026",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "measure_stim",
+      "file_type": "rationale",
+      "norm_label": "-> (pulse rate in hz or none, consistency). measured from the spacing of...",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L285"
+    },
+    {
+      "id": "emg_pipeline_rationale_325",
+      "label": "Fundamental of a harmonic comb in the spectrum, or None. -> (f0, mean dB)\u2026",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "measure_stim",
+      "file_type": "rationale",
+      "norm_label": "fundamental of a harmonic comb in the spectrum, or none. -> (f0, mean db)...",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L325"
+    },
+    {
+      "id": "emg_pipeline_rationale_399",
+      "label": "-> (rate or None, method) where method is 'pulses', 'comb' or None.",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "measure_stim",
+      "file_type": "rationale",
+      "norm_label": "-> (rate or none, method) where method is 'pulses', 'comb' or none.",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L399"
+    },
+    {
+      "id": "emg_pipeline_rationale_408",
+      "label": "Stimulation rate agreed by at least two channels, else None. -> (rate,\u2026",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "measure_stim",
+      "file_type": "rationale",
+      "norm_label": "stimulation rate agreed by at least two channels, else none. -> (rate,...",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L408"
+    },
+    {
+      "id": "emg_pipeline_rationale_192",
+      "label": "Bandpass plus stimulation and mains harmonics, as one second-order-section\u2026",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "clean",
+      "file_type": "rationale",
+      "norm_label": "bandpass plus stimulation and mains harmonics, as one second-order-section...",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L192"
+    },
+    {
+      "id": "emg_pipeline_rationale_215",
+      "label": "Filter one channel. remove_stim=False reproduces the original behaviour.\u2026",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "clean",
+      "file_type": "rationale",
+      "norm_label": "filter one channel. remove_stim=false reproduces the original behaviour....",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L215"
+    },
+    {
+      "id": "emg_pipeline_rationale_448",
+      "label": "Cut each stimulation spike out of the trace and bridge the gap. -> (blanked\u2026",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "clean",
+      "file_type": "rationale",
+      "norm_label": "cut each stimulation spike out of the trace and bridge the gap. -> (blanked...",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L448"
+    },
+    {
+      "id": "emg_pipeline_rationale_486",
+      "label": "Blank the pulses (if a rate was found), then bandpass + notches. stim_hz=None\u2026",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "clean",
+      "file_type": "rationale",
+      "norm_label": "blank the pulses (if a rate was found), then bandpass + notches. stim_hz=none...",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L486"
+    },
+    {
+      "id": "emg_pipeline_rationale_760",
+      "label": "Height of the stimulation line above local spectral background, in dB.",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "artifact_prominence",
+      "file_type": "rationale",
+      "norm_label": "height of the stimulation line above local spectral background, in db.",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L760"
+    },
+    {
+      "id": "emg_pipeline_rationale_771",
+      "label": "Per-trial quality metrics. The original emitted nothing like this, so a 26x\u2026",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "artifact_prominence",
+      "file_type": "rationale",
+      "norm_label": "per-trial quality metrics. the original emitted nothing like this, so a 26x...",
+      "source_file": "emg_pipeline.py",
+      "source_location": "L771"
     },
     {
       "id": "run_gait_video",
@@ -4100,18 +4065,6 @@
     },
     {
       "source": "gait_video_analyze_video",
-      "target": "gait_video_cache_is_current",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "gait_video.py",
-      "source_location": "L841",
-      "weight": 1.0
-    },
-    {
-      "source": "gait_video_analyze_video",
       "target": "gait_video_load_track",
       "relation": "calls",
       "_origin": "ast",
@@ -4119,7 +4072,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L846",
+      "source_location": "L799",
       "weight": 1.0
     },
     {
@@ -4131,7 +4084,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L851",
+      "source_location": "L804",
       "weight": 1.0
     },
     {
@@ -4143,7 +4096,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L854",
+      "source_location": "L807",
       "weight": 1.0
     },
     {
@@ -4155,7 +4108,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L856",
+      "source_location": "L809",
       "weight": 1.0
     },
     {
@@ -4167,7 +4120,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L857",
+      "source_location": "L810",
       "weight": 1.0
     },
     {
@@ -4179,7 +4132,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L858",
+      "source_location": "L811",
       "weight": 1.0
     },
     {
@@ -4191,7 +4144,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L861",
+      "source_location": "L814",
       "weight": 1.0
     },
     {
@@ -4203,7 +4156,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L862",
+      "source_location": "L815",
       "weight": 1.0
     },
     {
@@ -4215,7 +4168,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L863",
+      "source_location": "L816",
       "weight": 1.0
     },
     {
@@ -4227,7 +4180,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L881",
+      "source_location": "L834",
       "weight": 1.0
     },
     {
@@ -4239,7 +4192,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L883",
+      "source_location": "L836",
       "weight": 1.0
     },
     {
@@ -4251,7 +4204,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L886",
+      "source_location": "L839",
       "weight": 1.0
     },
     {
@@ -4263,7 +4216,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L503",
+      "source_location": "L483",
       "weight": 1.0
     },
     {
@@ -4275,7 +4228,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L330",
+      "source_location": "L310",
       "weight": 1.0
     },
     {
@@ -4287,7 +4240,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L361",
+      "source_location": "L341",
       "weight": 1.0
     },
     {
@@ -4299,7 +4252,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L527",
+      "source_location": "L507",
       "weight": 1.0
     },
     {
@@ -4311,7 +4264,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L528",
+      "source_location": "L508",
       "weight": 1.0
     },
     {
@@ -4323,7 +4276,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L530",
+      "source_location": "L510",
       "weight": 1.0
     },
     {
@@ -4335,7 +4288,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L536",
+      "source_location": "L516",
       "weight": 1.0
     },
     {
@@ -4347,7 +4300,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L537",
+      "source_location": "L517",
       "weight": 1.0
     },
     {
@@ -4359,7 +4312,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L539",
+      "source_location": "L519",
       "weight": 1.0
     },
     {
@@ -4371,7 +4324,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L542",
+      "source_location": "L522",
       "weight": 1.0
     },
     {
@@ -4383,7 +4336,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L418",
+      "source_location": "L398",
       "weight": 1.0
     },
     {
@@ -4395,7 +4348,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L454",
+      "source_location": "L434",
       "weight": 1.0
     },
     {
@@ -4407,7 +4360,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L251",
+      "source_location": "L231",
       "weight": 1.0
     },
     {
@@ -4419,7 +4372,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L474",
+      "source_location": "L454",
       "weight": 1.0
     },
     {
@@ -4431,7 +4384,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L708",
+      "source_location": "L688",
       "weight": 1.0
     },
     {
@@ -4443,7 +4396,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L285",
+      "source_location": "L265",
       "weight": 1.0
     },
     {
@@ -4455,7 +4408,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L591",
+      "source_location": "L571",
       "weight": 1.0
     },
     {
@@ -4467,7 +4420,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L655",
+      "source_location": "L635",
       "weight": 1.0
     },
     {
@@ -4479,7 +4432,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L678",
+      "source_location": "L658",
       "weight": 1.0
     },
     {
@@ -4491,7 +4444,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L679",
+      "source_location": "L659",
       "weight": 1.0
     },
     {
@@ -4503,7 +4456,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L682",
+      "source_location": "L662",
       "weight": 1.0
     },
     {
@@ -4551,19 +4504,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "gait_video.py",
-      "source_location": "L440",
-      "weight": 1.0
-    },
-    {
-      "source": "gait_video_write_annotated",
-      "target": "gait_video_overlay_text",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "gait_video.py",
-      "source_location": "L798",
+      "source_location": "L420",
       "weight": 1.0
     },
     {
@@ -4875,7 +4816,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "run_walking_emg.py",
-      "source_location": "L146",
+      "source_location": "L142",
       "weight": 1.0
     },
     {
@@ -4887,7 +4828,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "run_walking_emg.py",
-      "source_location": "L77",
+      "source_location": "L73",
       "weight": 1.0
     },
     {
@@ -4899,7 +4840,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "run_walking_emg.py",
-      "source_location": "L79",
+      "source_location": "L75",
       "weight": 1.0
     },
     {
@@ -4911,7 +4852,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "run_walking_emg.py",
-      "source_location": "L87",
+      "source_location": "L83",
       "weight": 1.0
     },
     {
@@ -4923,7 +4864,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "run_walking_emg.py",
-      "source_location": "L90",
+      "source_location": "L86",
       "weight": 1.0
     },
     {
@@ -4935,7 +4876,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "run_walking_emg.py",
-      "source_location": "L93",
+      "source_location": "L89",
       "weight": 1.0
     },
     {
@@ -4947,7 +4888,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "run_walking_emg.py",
-      "source_location": "L198",
+      "source_location": "L194",
       "weight": 1.0
     },
     {
@@ -4959,7 +4900,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "run_walking_emg.py",
-      "source_location": "L201",
+      "source_location": "L197",
       "weight": 1.0
     },
     {
@@ -4971,7 +4912,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "run_walking_emg.py",
-      "source_location": "L209",
+      "source_location": "L205",
       "weight": 1.0
     },
     {
@@ -4983,7 +4924,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "run_walking_emg.py",
-      "source_location": "L213",
+      "source_location": "L209",
       "weight": 1.0
     },
     {
@@ -4995,7 +4936,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "run_walking_emg.py",
-      "source_location": "L217",
+      "source_location": "L213",
       "weight": 1.0
     },
     {
@@ -5007,7 +4948,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "run_walking_emg.py",
-      "source_location": "L55",
+      "source_location": "L51",
       "weight": 1.0
     },
     {
@@ -5019,7 +4960,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "run_walking_emg.py",
-      "source_location": "L58",
+      "source_location": "L54",
       "weight": 1.0
     },
     {
@@ -5715,7 +5656,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "gait_video.py",
-      "source_location": "L318",
+      "source_location": "L298",
       "weight": 1.0
     },
     {
@@ -5727,7 +5668,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "gait_video.py",
-      "source_location": "L220",
+      "source_location": "L207",
       "weight": 1.0
     },
     {
@@ -5739,7 +5680,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "gait_video.py",
-      "source_location": "L649",
+      "source_location": "L629",
       "weight": 1.0
     },
     {
@@ -5751,7 +5692,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "gait_video.py",
-      "source_location": "L763",
+      "source_location": "L733",
       "weight": 1.0
     },
     {
@@ -7260,18 +7201,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L220",
-      "weight": 1.0
-    },
-    {
-      "source": "gait_video",
-      "target": "gait_video_cache_is_current",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "gait_video.py",
-      "source_location": "L233",
+      "source_location": "L207",
       "weight": 1.0
     },
     {
@@ -7282,7 +7212,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L242",
+      "source_location": "L221",
       "weight": 1.0
     },
     {
@@ -7293,7 +7223,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L258",
+      "source_location": "L238",
       "weight": 1.0
     },
     {
@@ -7304,7 +7234,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L271",
+      "source_location": "L251",
       "weight": 1.0
     },
     {
@@ -7315,7 +7245,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L292",
+      "source_location": "L272",
       "weight": 1.0
     },
     {
@@ -7326,7 +7256,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L302",
+      "source_location": "L282",
       "weight": 1.0
     },
     {
@@ -7337,7 +7267,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L318",
+      "source_location": "L298",
       "weight": 1.0
     },
     {
@@ -7348,7 +7278,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L393",
+      "source_location": "L373",
       "weight": 1.0
     },
     {
@@ -7359,7 +7289,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L403",
+      "source_location": "L383",
       "weight": 1.0
     },
     {
@@ -7370,7 +7300,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L412",
+      "source_location": "L392",
       "weight": 1.0
     },
     {
@@ -7381,7 +7311,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L437",
+      "source_location": "L417",
       "weight": 1.0
     },
     {
@@ -7392,7 +7322,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L447",
+      "source_location": "L427",
       "weight": 1.0
     },
     {
@@ -7403,7 +7333,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L467",
+      "source_location": "L447",
       "weight": 1.0
     },
     {
@@ -7414,7 +7344,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L487",
+      "source_location": "L467",
       "weight": 1.0
     },
     {
@@ -7425,7 +7355,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L500",
+      "source_location": "L480",
       "weight": 1.0
     },
     {
@@ -7436,7 +7366,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L507",
+      "source_location": "L487",
       "weight": 1.0
     },
     {
@@ -7447,7 +7377,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L551",
+      "source_location": "L531",
       "weight": 1.0
     },
     {
@@ -7458,7 +7388,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L606",
+      "source_location": "L586",
       "weight": 1.0
     },
     {
@@ -7469,7 +7399,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L610",
+      "source_location": "L590",
       "weight": 1.0
     },
     {
@@ -7480,7 +7410,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L633",
+      "source_location": "L613",
       "weight": 1.0
     },
     {
@@ -7491,7 +7421,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L642",
+      "source_location": "L622",
       "weight": 1.0
     },
     {
@@ -7502,7 +7432,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L649",
+      "source_location": "L629",
       "weight": 1.0
     },
     {
@@ -7513,7 +7443,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L693",
+      "source_location": "L673",
       "weight": 1.0
     },
     {
@@ -7524,18 +7454,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L728",
-      "weight": 1.0
-    },
-    {
-      "source": "gait_video",
-      "target": "gait_video_overlay_text",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "gait_video.py",
-      "source_location": "L759",
+      "source_location": "L708",
       "weight": 1.0
     },
     {
@@ -7546,7 +7465,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L763",
+      "source_location": "L733",
       "weight": 1.0
     },
     {
@@ -7557,7 +7476,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L827",
+      "source_location": "L785",
       "weight": 1.0
     },
     {
@@ -7986,7 +7905,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "run_walking_emg.py",
-      "source_location": "L151",
+      "source_location": "L147",
       "weight": 1.0
     },
     {
@@ -7997,7 +7916,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "run_walking_emg.py",
-      "source_location": "L179",
+      "source_location": "L175",
       "weight": 1.0
     },
     {
@@ -8008,7 +7927,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "run_walking_emg.py",
-      "source_location": "L52",
+      "source_location": "L49",
       "weight": 1.0
     },
     {
@@ -8019,7 +7938,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "run_walking_emg.py",
-      "source_location": "L65",
+      "source_location": "L61",
       "weight": 1.0
     },
     {
@@ -8030,7 +7949,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "run_walking_emg.py",
-      "source_location": "L76",
+      "source_location": "L72",
       "weight": 1.0
     },
     {
@@ -8540,118 +8459,118 @@
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_221",
+      "source": "gait_video_rationale_208",
       "target": "gait_video_save_track",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L221",
+      "source_location": "L208",
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_234",
-      "target": "gait_video_cache_is_current",
-      "relation": "rationale_for",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "gait_video.py",
-      "source_location": "L234",
-      "weight": 1.0
-    },
-    {
-      "source": "gait_video_rationale_243",
+      "source": "gait_video_rationale_222",
       "target": "gait_video_load_track",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L243",
+      "source_location": "L222",
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_259",
+      "source": "gait_video_rationale_239",
       "target": "gait_video_long_gaps",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L259",
+      "source_location": "L239",
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_272",
+      "source": "gait_video_rationale_252",
       "target": "gait_video_smooth_series",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L272",
+      "source_location": "L252",
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_293",
+      "source": "gait_video_rationale_273",
       "target": "gait_video_joint_angle",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L293",
+      "source_location": "L273",
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_303",
+      "source": "gait_video_rationale_283",
       "target": "gait_video_peaks",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L303",
+      "source_location": "L283",
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_319",
+      "source": "gait_video_rationale_299",
       "target": "gait_video_compute_kinematics",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L319",
+      "source_location": "L299",
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_413",
+      "source": "gait_video_rationale_393",
       "target": "gait_video_dominant_period",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L413",
+      "source_location": "L393",
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_438",
+      "source": "gait_video_rationale_418",
       "target": "gait_video_walking_mask",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L438",
+      "source_location": "L418",
+      "weight": 1.0
+    },
+    {
+      "source": "gait_video_rationale_428",
+      "target": "gait_video_end_of_rise",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "gait_video.py",
+      "source_location": "L428",
       "weight": 1.0
     },
     {
       "source": "gait_video_rationale_448",
-      "target": "gait_video_end_of_rise",
+      "target": "gait_video_onset_of_fall",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -8662,7 +8581,7 @@
     },
     {
       "source": "gait_video_rationale_468",
-      "target": "gait_video_onset_of_fall",
+      "target": "gait_video_event_signals",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -8673,7 +8592,7 @@
     },
     {
       "source": "gait_video_rationale_488",
-      "target": "gait_video_event_signals",
+      "target": "gait_video_detect_events",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -8683,80 +8602,69 @@
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_508",
-      "target": "gait_video_detect_events",
-      "relation": "rationale_for",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "gait_video.py",
-      "source_location": "L508",
-      "weight": 1.0
-    },
-    {
-      "source": "gait_video_rationale_552",
+      "source": "gait_video_rationale_532",
       "target": "gait_video_stride_table",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L552",
+      "source_location": "L532",
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_611",
+      "source": "gait_video_rationale_591",
       "target": "gait_video_normalize_cycles",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L611",
+      "source_location": "L591",
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_634",
+      "source": "gait_video_rationale_614",
       "target": "gait_video_consistency",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L634",
+      "source_location": "L614",
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_643",
+      "source": "gait_video_rationale_623",
       "target": "gait_video_si",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L643",
+      "source_location": "L623",
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_764",
+      "source": "gait_video_rationale_734",
       "target": "gait_video_write_annotated",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L764",
+      "source_location": "L734",
       "weight": 1.0
     },
     {
-      "source": "gait_video_rationale_829",
+      "source": "gait_video_rationale_787",
       "target": "gait_video_analyze_video",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gait_video.py",
-      "source_location": "L829",
+      "source_location": "L787",
       "weight": 1.0
     },
     {
@@ -8969,14 +8877,14 @@
       "weight": 1.0
     },
     {
-      "source": "run_walking_emg_rationale_66",
+      "source": "run_walking_emg_rationale_62",
       "target": "run_walking_emg_stride_bounds",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "run_walking_emg.py",
-      "source_location": "L66",
+      "source_location": "L62",
       "weight": 1.0
     },
     {
@@ -8992,5 +8900,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "2cd4bc9d8dc815e353c655c626b88f1335f0d5a1"
+  "built_at_commit": "2b375de6757890a3ad4aff4770290bb64ed08d8d"
 }

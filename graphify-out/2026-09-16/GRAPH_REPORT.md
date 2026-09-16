@@ -1,21 +1,22 @@
-# Graph Report - Thaddeus RESTORES EMG Test  (2026-09-16)
+# Graph Report - Thaddeus RESTORES EMG Test  (2026-09-15)
 
 ## Corpus Check
-- 30 files · ~51,178 words
+- 30 files · ~50,901 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 320 nodes · 459 edges · 20 communities (14 shown, 6 thin omitted)
+- 317 nodes · 454 edges · 25 communities (19 shown, 6 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `2cd4bc9d`
+- Built from commit: `2b375de6`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - restores_csv.py
+- emg_pipeline.py
 - preprocessing_functions.py
 - What You Must Do When Invoked
 - Core Capabilities
@@ -32,12 +33,16 @@
 - .claude/CLAUDE.md
 - extraction-spec.md
 - RESTORES EMG / gait analysis
-- emg_pipeline.py
+- process_trial
 - gait_video.py
+- process_arrays
+- measure_stim
+- clean
+- artifact_prominence
 - run_gait_video.py
 
 ## God Nodes (most connected - your core abstractions)
-1. `analyze_video()` - 16 edges
+1. `analyze_video()` - 15 edges
 2. `Core Capabilities` - 12 edges
 3. `What You Must Do When Invoked` - 12 edges
 4. `Core Capabilities` - 12 edges
@@ -49,9 +54,9 @@
 10. `apply_filters_P3()` - 9 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `qc_session()` --calls--> `is_environmental()`  [EXTRACTED]
-  run_csv_qc.py → emg_pipeline.py
-- `stim_rate()` --calls--> `is_environmental()`  [EXTRACTED]
+- `apply_filters_P3()` --calls--> `clean()`  [EXTRACTED]
+  preprocessing_functions.py → emg_pipeline.py
+- `analyze_file()` --calls--> `moving_rms()`  [EXTRACTED]
   run_walking_emg.py → emg_pipeline.py
 - `qc_session()` --calls--> `pulse_train_consensus()`  [EXTRACTED]
   run_csv_qc.py → emg_pipeline.py
@@ -63,15 +68,19 @@
 ## Import Cycles
 - None detected.
 
-## Communities (20 total, 6 thin omitted)
+## Communities (25 total, 6 thin omitted)
 
 ### Community 0 - "restores_csv.py"
 Cohesion: 0.08
-Nodes (35): detect_activation(), moving_rms(), Same-length RMS envelope., Samples where the muscle is active. The threshold is derived from the *rest*…, agonists(), baseline_for(), _classify(), _clock() (+27 more)
+Nodes (33): is_environmental(), True for a spectral comb sitting on the ENV_COMB_HZ ladder. A spike train…, agonists(), baseline_for(), _classify(), _clock(), list_session(), load() (+25 more)
+
+### Community 1 - "emg_pipeline.py"
+Cohesion: 0.17
+Nodes (9): detect_stim_frequency(), Patient, Per-patient recording conventions., Find the stimulation line in a recording, or None if there isn't one. STIM_HZ…, Single-path EMG processing for the RESTORES study (P1-P3). Replaces the six…, Windowed RMS. window_s=0.05 matches the original's 500-sample window (its…, Finding 17: max() is a single sample and one artifact spike rescales a whole…, rms_envelope() (+1 more)
 
 ### Community 2 - "preprocessing_functions.py"
-Cohesion: 0.12
-Nodes (31): Created on Mon Mar 9 11:58:36 2026 @author: David Teo, RMS(), RMS_envelope(), clean(), Filter one channel. remove_stim=False reproduces the original behaviour.…, Created on Wed Apr 1 16:44:56 2026 @author: David Teo, RMS(), RMS_envelope() (+23 more)
+Cohesion: 0.13
+Nodes (29): Created on Mon Mar 9 11:58:36 2026 @author: David Teo, RMS(), RMS_envelope(), Created on Wed Apr 1 16:44:56 2026 @author: David Teo, RMS(), RMS_envelope(), Created on Wed Mar 11 17:32:02 2026 @author: David Teo, RMS() (+21 more)
 
 ### Community 3 - "What You Must Do When Invoked"
 Cohesion: 0.08
@@ -109,13 +118,29 @@ Nodes (3): For --cluster-only, For --update (incremental re-extraction), graphif
 Cohesion: 0.40
 Nodes (4): EMG (P4-P6 CSV export), RESTORES EMG / gait analysis, Setup, Walking videos (gait kinematics)
 
-### Community 18 - "emg_pipeline.py"
-Cohesion: 0.05
-Nodes (51): artifact_prominence(), blank_pulses(), build_filter(), check_duplicate_recordings(), detect_pulse_train(), detect_stim_comb(), detect_stim_frequency(), find_baseline() (+43 more)
+### Community 18 - "process_trial"
+Cohesion: 0.18
+Nodes (14): check_duplicate_recordings(), find_baseline(), find_trials(), load_concatenated(), load_recording(), parse_name(), process_trial(), -> (exercise_number, subtrial or None), or (None, None) if unnumbered. (+6 more)
 
 ### Community 19 - "gait_video.py"
 Cohesion: 0.06
-Nodes (56): analyze_video(), cache_is_current(), choose_method(), compute_kinematics(), _consistency(), detect_events(), dominant_period(), _end_of_rise() (+48 more)
+Nodes (53): analyze_video(), choose_method(), compute_kinematics(), _consistency(), detect_events(), dominant_period(), _end_of_rise(), event_signals() (+45 more)
+
+### Community 20 - "process_arrays"
+Cohesion: 0.18
+Nodes (9): detect_activation(), gain_scale(), moving_rms(), process_arrays(), Same-length RMS envelope., Samples where the muscle is active. The threshold is derived from the *rest*…, Divide out the amplifier range so amplitudes are comparable across conditions…, Process one exercise given its (n_ch, N) array and its rest recording. Format-… (+1 more)
+
+### Community 21 - "measure_stim"
+Cohesion: 0.20
+Nodes (10): detect_pulse_train(), detect_stim_comb(), measure_stim(), pulse_train_consensus(), Sample indices of stimulation spikes. -> (indices, |dx|, settled-slope level) A…, -> (pulse rate in Hz or None, consistency). Measured from the spacing of…, Fundamental of a harmonic comb in the spectrum, or None. -> (f0, mean dB)…, -> (rate or None, method) where method is 'pulses', 'comb' or None. (+2 more)
+
+### Community 22 - "clean"
+Cohesion: 0.22
+Nodes (9): blank_pulses(), build_filter(), clean(), _notch_sections(), Bandpass plus stimulation and mains harmonics, as one second-order-section…, Filter one channel. remove_stim=False reproduces the original behaviour.…, Cut each stimulation spike out of the trace and bridge the gap. -> (blanked…, Blank the pulses (if a rate was found), then bandpass + notches. stim_hz=None… (+1 more)
+
+### Community 23 - "artifact_prominence"
+Cohesion: 0.50
+Nodes (4): artifact_prominence(), qc_row(), Height of the stimulation line above local spectral background, in dB., Per-trial quality metrics. The original emitted nothing like this, so a 26x…
 
 ### Community 24 - "run_gait_video.py"
 Cohesion: 0.67
@@ -123,23 +148,23 @@ Nodes (3): find_videos(), main(), Gait kinematics from the RESTORES walking vide
 
 ## Knowledge Gaps
 - **86 isolated node(s):** `Overview`, `When to Use This Skill`, `1. Cardiac Signal Processing (ECG/PPG)`, `2. Heart Rate Variability Analysis`, `3. Brain Signal Analysis (EEG)` (+81 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 186 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 185 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `clean()` connect `preprocessing_functions.py` to `emg_pipeline.py`?**
-  _High betweenness centrality (0.076) - this node is a cross-community bridge._
-- **Why does `qc_session()` connect `restores_csv.py` to `emg_pipeline.py`?**
+- **Why does `clean()` connect `clean` to `emg_pipeline.py`, `preprocessing_functions.py`?**
+  _High betweenness centrality (0.078) - this node is a cross-community bridge._
+- **Why does `apply_filters_P3()` connect `preprocessing_functions.py` to `clean`?**
+  _High betweenness centrality (0.030) - this node is a cross-community bridge._
+- **Why does `qc_session()` connect `restores_csv.py` to `process_arrays`, `measure_stim`, `clean`?**
   _High betweenness centrality (0.022) - this node is a cross-community bridge._
 - **What connects `Overview`, `When to Use This Skill`, `1. Cardiac Signal Processing (ECG/PPG)` to the rest of the system?**
   _86 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `restores_csv.py` be split into smaller, more focused modules?**
-  _Cohesion score 0.07549361207897794 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07948717948717948 - nodes in this community are weakly interconnected._
 - **Should `preprocessing_functions.py` be split into smaller, more focused modules?**
-  _Cohesion score 0.11666666666666667 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.1251778093883357 - nodes in this community are weakly interconnected._
 - **Should `What You Must Do When Invoked` be split into smaller, more focused modules?**
   _Cohesion score 0.08 - nodes in this community are weakly interconnected._
-- **Should `Core Capabilities` be split into smaller, more focused modules?**
-  _Cohesion score 0.08333333333333333 - nodes in this community are weakly interconnected._

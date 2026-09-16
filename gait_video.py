@@ -204,30 +204,50 @@ def track_video(path, model="heavy", num_poses=1, min_detection=0.5, min_presenc
     return Track(path, fps, width, height, t, px, vis, world, n_poses, model)
 
 
+# MediaPipe's 33 pose landmarks, in index order.  All of them are cached so
+# that a re-render from the cache draws the same full skeleton as a fresh
+# track (an earlier cache kept only the 12 gait points, which silently
+# dropped the arms and face from the annotated video).
+POSE_NAMES = ["nose", "left_eye_inner", "left_eye", "left_eye_outer", "right_eye_inner", "right_eye",
+              "right_eye_outer", "left_ear", "right_ear", "mouth_left", "mouth_right",
+              "left_shoulder", "right_shoulder", "left_elbow", "right_elbow", "left_wrist", "right_wrist",
+              "left_pinky", "right_pinky", "left_index", "right_index", "left_thumb", "right_thumb",
+              "left_hip", "right_hip", "left_knee", "right_knee", "left_ankle", "right_ankle",
+              "left_heel", "right_heel", "left_foot_index", "right_foot_index"]
+_LM_FIELDS = ("x", "y", "vis", "wx", "wy", "wz")
+
+
 def save_track(track: Track, path):
-    """Raw per-frame landmarks (pixels, visibility, world metres) for the 12 gait landmarks."""
+    """Raw per-frame landmarks (pixels, visibility, world metres), all 33 points."""
     cols = {"frame": np.arange(track.n_frames), "t": track.t, "n_poses": track.n_poses}
-    for key, (li, ri) in LM.items():
-        for side, k in zip(SIDES, (li, ri)):
-            cols[f"{side}_{key}_x"] = track.px[:, k, 0]
-            cols[f"{side}_{key}_y"] = track.px[:, k, 1]
-            cols[f"{side}_{key}_vis"] = track.vis[:, k]
-            cols[f"{side}_{key}_wx"] = track.world[:, k, 0]
-            cols[f"{side}_{key}_wy"] = track.world[:, k, 1]
-            cols[f"{side}_{key}_wz"] = track.world[:, k, 2]
+    for k, name in enumerate(POSE_NAMES):
+        cols[f"{name}_x"] = track.px[:, k, 0]
+        cols[f"{name}_y"] = track.px[:, k, 1]
+        cols[f"{name}_vis"] = track.vis[:, k]
+        cols[f"{name}_wx"] = track.world[:, k, 0]
+        cols[f"{name}_wy"] = track.world[:, k, 1]
+        cols[f"{name}_wz"] = track.world[:, k, 2]
     pd.DataFrame(cols).to_csv(path, index=False, float_format="%.4f")
 
 
+def cache_is_current(landmarks_csv):
+    """False for caches written before all 33 landmarks were stored."""
+    try:
+        header = pd.read_csv(landmarks_csv, nrows=0).columns
+    except Exception:
+        return False
+    return all(f"{name}_{f}" in header for name in POSE_NAMES for f in _LM_FIELDS)
+
+
 def load_track(landmarks_csv, path, fps, width, height, model="?"):
-    """Rebuild a Track (gait landmarks only) from save_track output, to skip re-tracking."""
+    """Rebuild a Track from save_track output, to skip re-tracking."""
     df = pd.read_csv(landmarks_csv)
     n = len(df)
     px, vis, world = np.full((n, 33, 2), np.nan), np.full((n, 33), np.nan), np.full((n, 33, 3), np.nan)
-    for key, (li, ri) in LM.items():
-        for side, k in zip(SIDES, (li, ri)):
-            px[:, k, 0], px[:, k, 1] = df[f"{side}_{key}_x"], df[f"{side}_{key}_y"]
-            vis[:, k] = df[f"{side}_{key}_vis"]
-            world[:, k] = df[[f"{side}_{key}_wx", f"{side}_{key}_wy", f"{side}_{key}_wz"]].to_numpy()
+    for k, name in enumerate(POSE_NAMES):
+        px[:, k, 0], px[:, k, 1] = df[f"{name}_x"], df[f"{name}_y"]
+        vis[:, k] = df[f"{name}_vis"]
+        world[:, k] = df[[f"{name}_wx", f"{name}_wy", f"{name}_wz"]].to_numpy()
     return Track(path, fps, width, height, df["t"].to_numpy(), px, vis, world,
                  df["n_poses"].to_numpy(), model)
 
@@ -730,10 +750,24 @@ def plot_cycles(cycles, columns, out_png, title=""):
     plt.close(fig)
 
 
+# On-screen text exactly as in Kezia's gait_analysis_mediapipe.py: plain white,
+# one value per line, no outline.
+FONT_SCALE = 0.7
+FONT_THICKNESS = 2
+
+
+def _overlay_text(img, text, org):
+    cv2.putText(img, text, org, cv2.FONT_HERSHEY_SIMPLEX, FONT_SCALE, (255, 255, 255), FONT_THICKNESS, cv2.LINE_AA)
+
+
 def write_annotated(track: Track, kin, ev, out_path, strides=None):
-    """Second decode pass: skeleton, angles, view and event flashes drawn on every frame."""
+    """Second decode pass: full skeleton (MediaPipe's default pose style, as
+    in Kezia's video), the 3-D hip/knee/ankle angles in her text layout, and
+    a flash on the heel / toe at each detected heel strike / toe off."""
     from mediapipe.tasks.python import vision
-    conns = [(c.start, c.end) for c in vision.PoseLandmarksConnections.POSE_LANDMARKS]
+    from mediapipe.tasks.python.components.containers import landmark as lm_mod
+    conns = vision.PoseLandmarksConnections.POSE_LANDMARKS
+    style = vision.drawing_styles.get_default_pose_landmarks_style()
     cap = cv2.VideoCapture(track.path)
     fourcc = cv2.VideoWriter_fourcc(*"mp4v")
     writer = cv2.VideoWriter(out_path, fourcc, track.fps, (track.width, track.height))
@@ -747,23 +781,31 @@ def write_annotated(track: Track, kin, ev, out_path, strides=None):
         ok, frame = cap.read()
         if not ok:
             break
-        p = track.px[i]
+        p, v = track.px[i], track.vis[i]
         if np.isfinite(p[LM["HP"][0], 0]):
-            for a, b in conns:
-                if np.isfinite(p[a]).all() and np.isfinite(p[b]).all():
-                    cv2.line(frame, tuple(p[a].astype(int)), tuple(p[b].astype(int)), (230, 230, 230), 2, cv2.LINE_AA)
-            for k in range(33):
-                if np.isfinite(p[k]).all():
-                    side = "L" if k % 2 == 1 else "R"
-                    cv2.circle(frame, tuple(p[k].astype(int)), 3, colors[side], -1, cv2.LINE_AA)
+            # the drawing util hides landmarks below its own 0.5 visibility /
+            # presence thresholds, which is what keeps occluded points off screen
+            pts = [lm_mod.NormalizedLandmark(
+                x=float(p[k, 0] / track.width) if np.isfinite(p[k, 0]) else 0.0,
+                y=float(p[k, 1] / track.height) if np.isfinite(p[k, 1]) else 0.0,
+                z=0.0,
+                visibility=float(v[k]) if np.isfinite(v[k]) else 0.0,
+                presence=1.0 if np.isfinite(p[k, 0]) else 0.0) for k in range(33)]
+            vision.drawing_utils.draw_landmarks(frame, pts, conns, landmark_drawing_spec=style)
         row = kin.iloc[i]
-        y = 30
-        for txt in (f"t={row.t:6.2f}s  view={row.view_ratio:.2f}",
-                    f"L knee3d {row.L_knee_3d:5.1f}  hip3d {row.L_hip_3d:5.1f}  ankle3d {row.L_ankle_3d:5.1f}",
-                    f"R knee3d {row.R_knee_3d:5.1f}  hip3d {row.R_hip_3d:5.1f}  ankle3d {row.R_ankle_3d:5.1f}"):
-            cv2.putText(frame, txt, (12, y), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 0, 0), 3, cv2.LINE_AA)
-            cv2.putText(frame, txt, (12, y), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 1, cv2.LINE_AA)
-            y += 26
+        y0, dy = 30, 28
+        if row.L_ok:
+            _overlay_text(frame, f"L Hip:  {row.L_hip_3d:.1f}", (20, y0))
+            _overlay_text(frame, f"L Knee: {row.L_knee_3d:.1f}", (20, y0 + dy))
+            _overlay_text(frame, f"L Ankle:{row.L_ankle_3d:.1f}", (20, y0 + 2 * dy))
+        else:
+            _overlay_text(frame, "L angles: NA", (20, y0))
+        if row.R_ok:
+            _overlay_text(frame, f"R Hip:  {row.R_hip_3d:.1f}", (20, y0 + 3 * dy))
+            _overlay_text(frame, f"R Knee: {row.R_knee_3d:.1f}", (20, y0 + 4 * dy))
+            _overlay_text(frame, f"R Ankle:{row.R_ankle_3d:.1f}", (20, y0 + 5 * dy))
+        else:
+            _overlay_text(frame, "R angles: NA", (20, y0 + 3 * dy))
         for side, event in flash.get(i, []):
             k = LM["HL" if event == "HS" else "FT"][0 if side == "L" else 1]
             if np.isfinite(p[k]).all():
@@ -795,7 +837,12 @@ def analyze_video(path, out_dir, model="heavy", min_vis=MIN_VIS, cutoff=SMOOTH_H
     fps, w, h = cap.get(cv2.CAP_PROP_FPS) or 30.0, int(cap.get(3)), int(cap.get(4))
     cap.release()
     lm_csv = f("landmarks.csv")
-    if reuse_landmarks and os.path.exists(lm_csv) and not max_frames:
+    cached = reuse_landmarks and os.path.exists(lm_csv) and not max_frames
+    if cached and not cache_is_current(lm_csv):
+        cached = False
+        if progress:
+            print(f"  {os.path.basename(lm_csv)} is from an older version (12 landmarks); re-tracking", flush=True)
+    if cached:
         track = load_track(lm_csv, path, fps, w, h, model)
         if progress:
             print(f"  reusing {lm_csv} ({track.n_frames} frames)", flush=True)
