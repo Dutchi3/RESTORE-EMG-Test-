@@ -4,6 +4,7 @@ __pycache__/
 *.mat
 *.rtf
 *.xlsx
+*.docx
 
 # Local data-share location; keeps internal paths out of the repository.
 restores_config.py
@@ -16,3 +17,7 @@ outputs/
 models/
 *.mp4
 *.mov
+
+# graphify's own run-to-run bookkeeping (timestamps, stat index) - changes on
+# almost every query, no information value in version history.
+graphify-out/cache/
